@@ -4,13 +4,14 @@ import { CiSearch } from "react-icons/ci";
 import { FaShoppingCart } from "react-icons/fa";
 import { HiOutlineBars3BottomRight } from "react-icons/hi2";
 import { MdClose } from "react-icons/md";
+import MobileNav from "./MobileNav";
 // className = "[&.active]:font-bold";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
 
   const handleMenu = () => {
-    setOpen(!isOpen);
+    setOpen((prev) => !prev);
   };
   return (
     <div className="bg-black">
@@ -27,17 +28,20 @@ const Navbar = () => {
             <FaShoppingCart size={24} />
           </button>
           {isOpen ? (
-            <button onClick={handleMenu} className="text-white">
+            <button onClick={handleMenu} className="text-white md:hidden flex">
               <MdClose size={26} />
             </button>
           ) : (
-            <button onClick={handleMenu} className="text-white">
+            <button onClick={handleMenu} className="text-white md:hidden flex">
               {" "}
               <HiOutlineBars3BottomRight size={26} />
             </button>
           )}
         </div>
-      </div>
+      </div>{" "}
+      {isOpen && (
+        <MobileNav handleMenu={handleMenu} isOpen={isOpen} MdClose={MdClose} />
+      )}
     </div>
   );
 };

@@ -13,8 +13,8 @@ const HomePage = () => {
       {" "}
       <div className="flex flex-col justify-center items-center ">
         {" "}
-        <h1 className=" text-3xl md:text-4xl mt-24 font-bold uppercase text-transparent bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 bg-clip-text font-poppins">
-          Tivan Honey333
+        <h1 className=" text-3xl md:text-4xl mt-24 font-bold uppercase text-transparent bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 bg-clip-text">
+          Tivan Honey
         </h1>
         <p className="pt-2 font-bold mb-2 text-amber-700">
           Natural and Pure Honey

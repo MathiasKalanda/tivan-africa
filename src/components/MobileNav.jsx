@@ -9,10 +9,14 @@ const MobileNav = ({ isOpen, MdClose, handleMenu }) => {
           <div className="px-5 py-3">
             <img src="/logofull.png" alt="bingo" className="w-30" />
           </div>
-          <button onClick={handleMenu} className="text-white md:hidden flex">
+          <button
+            onClick={handleMenu}
+            className="text-white md:hidden flex py-3 px-5"
+          >
             <MdClose size={30} />
           </button>
         </div>
+        <hr className="text-green-900" />
       </div>
     </div>
   );

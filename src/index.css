@@ -71,3 +71,8 @@
   backface-visibility: visible;
   perspective: 1000px;
 }
+
+/* Add to your CSS */
+.curvy-bottom {
+  clip-path: circle(75% 25% at 50% 100%);
+}

@@ -9,7 +9,7 @@ const Oil = () => {
 
         color: "white",
       }}
-      className="pb-10"
+      className="pb-10 curvy-bottom"
     >
       {" "}
       <div className="flex flex-col justify-center items-center ">

@@ -5,6 +5,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { HiOutlineBars3BottomRight } from "react-icons/hi2";
 import { MdClose } from "react-icons/md";
 import MobileNav from "./MobileNav";
+import MobileCart from "./MobileCart";
 // className = "[&.active]:font-bold";
 
 const Navbar = () => {
@@ -12,6 +13,11 @@ const Navbar = () => {
 
   const handleMenu = () => {
     setOpen((prev) => !prev);
+  };
+  const [isCart, setCart] = useState(false);
+
+  const handleCart = () => {
+    setCart((prev) => !prev);
   };
   return (
     <div className="bg-black fixed w-full top-0 z-50">
@@ -24,9 +30,16 @@ const Navbar = () => {
           <button className=" text-white">
             <CiSearch size={24} />
           </button>
-          <button className="text-white">
-            <FaShoppingCart size={24} />
-          </button>
+          {isCart ? (
+            <button onClick={handleCart} className="text-red-900">
+              <FaShoppingCart size={24} />
+            </button>
+          ) : (
+            <button onClick={handleCart} className=" text-white">
+              <FaShoppingCart size={24} />
+            </button>
+          )}
+
           {isOpen ? (
             <button onClick={handleMenu} className="text-white md:hidden flex">
               <MdClose size={26} />
@@ -41,6 +54,9 @@ const Navbar = () => {
       </div>{" "}
       {isOpen && (
         <MobileNav handleMenu={handleMenu} isOpen={isOpen} MdClose={MdClose} />
+      )}
+      {isCart && (
+        <MobileCart handleCart={handleCart} isCart={isCart} MdClose={MdClose} />
       )}
     </div>
   );

@@ -89,3 +89,16 @@
   display: inline-block;
   animation: moveArrow 0.6s ease-in-out infinite alternate;
 }
+
+@keyframes moveArrow2 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.moving-arrow2 {
+  display: inline-block;
+  animation: moveArrow2 0.6s ease-in-out infinite alternate;
+}

@@ -14,13 +14,17 @@ const Oil = () => {
       {" "}
       <div className="flex flex-col justify-center items-center ">
         {" "}
-        <h1 className=" text-3xl md:text-4xl mt-24 font-bold uppercase text-transparent bg-gradient-to-r from-gray-800 via-black/30 via-black/40 to-black  bg-clip-text">
+        <h1 className=" text-3xl md:text-4xl mt-24 font-bold uppercase text-transparent bg-gradient-to-r from-gray-800 via-black/30  to-black  bg-clip-text">
           Tivan Oil
         </h1>
-        <p className="pt-2 font-bold mb-2 text-amber-700">
+        <p className="pt-2 font-bold mb-2 text-amber-700 ">
           Natural and Flavoured Oil
         </p>
-        <img src="/oil2nobg.png" alt="" className="w-80 border-0" />
+        <img
+          src="/bestoil-removebg-preview.png"
+          alt=""
+          className="w-80 border-0  "
+        />
         <div className="uppercase font-bold text-transparent bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text">
           Taste the flavour beyond treasure
         </div>

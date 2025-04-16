@@ -4,6 +4,7 @@ import Oil from "./Oil";
 // import Butter from "./Butter";
 import Dimensions from "./Dimensions";
 import HoneyGallery from "./HoneyGallery";
+import DisplayProducts from "./DisplayProducts";
 
 const HomePage = () => {
   return (
@@ -12,7 +13,8 @@ const HomePage = () => {
 
       <Oil />
       <HoneyGallery />
-      <Dimensions />
+      {/* <Dimensions /> */}
+      <DisplayProducts />
       {/* <Butter /> */}
     </div>
   );

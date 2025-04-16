@@ -48,7 +48,7 @@ const DisplayProducts = () => {
       }}
       className="flex flex-row justify-center items-center"
     >
-      <div className="relative w-full flex justify-center items-center min-h-[400px] overflow-hidden bg-white">
+      <div className="relative w-full flex justify-center items-center min-h-[400px] overflow-hidden ">
         <AnimatePresence mode="wait">
           <motion.div
             key={current}
@@ -56,12 +56,12 @@ const DisplayProducts = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.6 }}
-            className="flex flex-row justify-center items-center gap-6 px-5 absolute"
+            className="flex flex-row justify-center items-center gap-6  absolute"
           >
             <img
               src={products[current].image}
               alt={products[current].name}
-              className="w-60 h-80 object-contain"
+              className="w-50 h-80 object-contain"
             />
             <div>
               <h1 className="uppercase font-black text-transparent bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text underline text-2xl">

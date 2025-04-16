@@ -48,7 +48,7 @@ const DisplayProducts = () => {
       }}
       className="flex flex-row justify-center items-center"
     >
-      <div className="relative w-full flex justify-center items-center h-[80vh] overflow-hidden ">
+      <div className="relative w-full flex justify-center items-center h-100 overflow-hidden ">
         <AnimatePresence mode="wait">
           <motion.div
             key={current}

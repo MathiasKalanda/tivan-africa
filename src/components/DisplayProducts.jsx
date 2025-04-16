@@ -43,7 +43,7 @@ const DisplayProducts = () => {
       style={{
         background:
           "radial-gradient(circle, #ffffff, #f5f5f5, #fef9e7, #faebd7)",
-        minHeight: "50vh",
+        // minHeight: "50vh",
         color: "black",
       }}
       className="flex flex-row justify-center items-center"

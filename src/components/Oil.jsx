@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Oil = () => {
   return (
     <div
@@ -9,7 +10,7 @@ const Oil = () => {
 
         color: "white",
       }}
-      className="pb-10 curvy-bottom"
+      className="pb-10"
     >
       {" "}
       <div className="flex flex-col justify-center items-center ">
@@ -41,6 +42,7 @@ const Oil = () => {
           </button>
         </div>
       </div>
+     
     </div>
   );
 };

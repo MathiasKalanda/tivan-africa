@@ -10,9 +10,13 @@ import MobileCart from "./MobileCart";
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
+  const [isCart, setCart] = useState(false);
 
   const handleMenu = () => {
     setOpen((prev) => !prev);
+  };
+  const handleCart = () => {
+    setCart((prev) => !prev);
   };
   return (
     <div className="bg-black fixed w-full top-0 z-50">

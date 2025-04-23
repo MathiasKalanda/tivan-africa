@@ -14,11 +14,6 @@ const Navbar = () => {
   const handleMenu = () => {
     setOpen((prev) => !prev);
   };
-  const [isCart, setCart] = useState(false);
-
-  const handleCart = () => {
-    setCart((prev) => !prev);
-  };
   return (
     <div className="bg-black fixed w-full top-0 z-50">
       <div className="flex flex-row justify-between mx-3">

@@ -5,10 +5,12 @@ import Oil from "./Oil";
 import Dimensions from "./Dimensions";
 import HoneyGallery from "./HoneyGallery";
 import DisplayProducts from "./DisplayProducts";
+import HeroSection from "./HeroSection";
 
 const HomePage = () => {
   return (
     <div className="">
+      <HeroSection />
       <Honey />
 
       <Oil />

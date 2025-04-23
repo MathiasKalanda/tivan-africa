@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="my-6">
       <div className="text-center ">
-        Copyright© 1995-2025 Samsung. All rights reserved.
+        Copyright© 2025 Tivan Consultancy Ltd. All rights reserved.
       </div>
       <div className="flex flex-row justify-center items-center gap-5 my-10">
         <FaFacebook size={38} />

@@ -16,11 +16,11 @@ const Footer = () => {
         <FaLinkedin size={38} />
       </div>
       <div className="my-3">
-        <ul className="flex flex-row justify-center items-center gap-4">
-          <li className="p-4 hover:underline">For Business</li>
-          <li className="p-4 hover:underline">Privacy</li>
-          <li className="p-4 hover:underline">Legal</li>
-          <li className="p-4 hover:underline">Products</li>
+        <ul className="flex flex-row justify-center items-center gap-2">
+          <li className="p-2 hover:underline">For Business</li>
+          <li className="p-2 hover:underline">Privacy</li>
+          <li className="p-2 hover:underline">Legal</li>
+          <li className="p-2 hover:underline">Products</li>
         </ul>
       </div>
     </div>

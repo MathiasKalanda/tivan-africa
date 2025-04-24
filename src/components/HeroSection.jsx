@@ -10,7 +10,7 @@ const HeroSection = () => {
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   return (
     <div className="mt-10">
-      <div className="h-screen  pt-10 flex flex-col  items-center justify-between pb-20 relative">
+      <div className="h-screen  pt-10 flex flex-col  items-center justify-evenly relative">
         <video
           className="fixed top-0 left-0 w-full h-full object-cover z-[-1] mt-10"
           autoPlay
@@ -20,16 +20,19 @@ const HeroSection = () => {
           <source src="/honeyvideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="self-center pt-40  font-bold text-4xl bg-gradient-to-r from-green-700 via-green-400 to-lime-300 bg-clip-text text-transparent">
-          Tivan Organic Products
+        <div className="self-center pt-40 flex flex-col justify-center items-cente gap-2">
+          <div className=" font-bold text-4xl bg-gradient-to-r from-green-700 via-green-400 to-lime-300 bg-clip-text text-transparent">
+            Tivan Organic Products
+          </div>
+          <p className="text-center font-bold text-lg">
+            Organic Butter. Golden Honey. Natural Oils.
+          </p>{" "}
+          <span className="font-bold underline itali mb-5 text-center">
+            Rooted in nature. Crafted with care.
+          </span>
         </div>
-        <p className="text-center font-bold text-lg">
-          Organic Butter. Golden Honey. Natural Oils.
-        </p>
-        <span className="font-bold underline itali mb-5">
-          Rooted in nature. Crafted with care.
-        </span>
-        <div className="flex flex-col gap-5 w-96 mx-10">
+
+        <div className="flex flex-col gap-5 w-96 mx-10 ">
           <div className="flex flex-row items-center gap-5">
             <div className="bg-amber-700/35 p-2 rounded-full">
               {" "}

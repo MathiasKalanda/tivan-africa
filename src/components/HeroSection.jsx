@@ -10,7 +10,7 @@ const HeroSection = () => {
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
   return (
     <div className="mt-10">
-      <div className="h-screen  pt-10 flex flex-col  items-center justify-evenly relative">
+      <div className=" pt-10 flex flex-col  items-center justify-evenly ">
         <video
           className="fixed top-0 left-0 w-full h-full object-cover z-[-1] mt-10"
           autoPlay

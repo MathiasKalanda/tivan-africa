@@ -6,17 +6,21 @@ import Dimensions from "./Dimensions";
 import HoneyGallery from "./HoneyGallery";
 import DisplayProducts from "./DisplayProducts";
 import HeroSection from "./HeroSection";
+import Hero from "./Hero";
+import DetailedProducts from "./DetailedProducts";
 
 const HomePage = () => {
   return (
     <div className="">
-      <HeroSection />
-      <Honey />
+      <Hero />
 
+      <Honey />
+      <DetailedProducts />
       <Oil />
       <HoneyGallery />
-      {/* <Dimensions /> */}
+      <Dimensions />
       <DisplayProducts />
+      {/* <HeroSection /> */}
       {/* <Butter /> */}
     </div>
   );

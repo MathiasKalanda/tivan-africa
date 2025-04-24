@@ -28,7 +28,7 @@ const Products = () => {
               </p>
               <button className="bg-orange-600 self-end px-4 py-1 flex flex-row justify-center items-center gap-2 rounded-2xl">
                 <span className="capitalize text-white">order now</span>
-                <FaCircleArrowRight className="bg-orange-600 rounded-full text-white" />
+                <FaCircleArrowRight className="bg-orange-600 rounded-full text-white moving-arrow" />
               </button>
             </div>
           </div>
@@ -52,7 +52,7 @@ const Products = () => {
               </p>
               <button className="bg-orange-600 self-end px-4 py-1 flex flex-row justify-center items-center gap-2 rounded-2xl">
                 <span className="capitalize text-white">order now</span>
-                <FaCircleArrowRight className="bg-orange-600 rounded-full text-white" />
+                <FaCircleArrowRight className="bg-orange-600 rounded-full text-white moving-arrow" />
               </button>
             </div>
 
@@ -89,7 +89,7 @@ const Products = () => {
               </p>
               <button className="bg-orange-600 self-end px-4 py-1 flex flex-row justify-center items-center gap-2 rounded-2xl">
                 <span className="capitalize text-white">order now</span>
-                <FaCircleArrowRight className="bg-orange-600 rounded-full text-white" />
+                <FaCircleArrowRight className="bg-orange-600 rounded-full text-white moving-arrow" />
               </button>
             </div>
           </div>

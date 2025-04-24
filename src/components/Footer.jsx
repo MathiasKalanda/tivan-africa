@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="my-6">
-      <div className="text-center ">
+      <div className="text-center font-bold">
         Copyright© 2025 Tivan Consultancy Ltd. All rights reserved.
       </div>
       <div className="flex flex-row justify-center items-center gap-5 my-10">

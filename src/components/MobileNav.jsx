@@ -8,9 +8,9 @@ const MobileNav = ({ isOpen, MdClose, handleMenu }) => {
       <div className="bg-black text-white h-screen top-0 md:hidden flex fixed w-full flex-col items-center">
         <div className="flex flex-row justify-between mx-3 w-full p-3">
           {" "}
-          <div className="px-5 py-3">
+          <Link to="/" onClick={handleMenu} className="px-5 py-3">
             <img src="/logofull.png" alt="bingo" className="w-30" />
-          </div>
+          </Link>
           <button
             onClick={handleMenu}
             className="text-green-950 md:hidden flex py-3 px-5"

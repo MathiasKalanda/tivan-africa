@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import React from "react";
 import { LiaArrowRightSolid } from "react-icons/lia";
 
@@ -12,43 +13,52 @@ const MobileNav = ({ isOpen, MdClose, handleMenu }) => {
           </div>
           <button
             onClick={handleMenu}
-            className="text-white md:hidden flex py-3 px-5"
+            className="text-green-950 md:hidden flex py-3 px-5"
           >
             <MdClose size={30} />
           </button>
         </div>
         <div className="self-start  h-full w-full px-10 py-6">
           <ul className="text-white">
-            <li className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between">
+            <Link
+              to="/products"
+              onClick={handleMenu}
+              className="py-3 px-4 rounded-3xl border-green-400 border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between"
+            >
               <span className="font-bold uppercase">Products</span>
               <span className="moving-arrow text-green-800">
                 <LiaArrowRightSolid size={24} className="" />
               </span>
-            </li>
-            <li className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between">
+            </Link>
+            <li className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between border-green-400">
               <span className="font-bold uppercase">Orders</span>
               <span className="moving-arrow text-green-800">
                 <LiaArrowRightSolid size={24} className="" />
               </span>
             </li>
-            <li className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between">
+            <li className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between border-green-400">
               <span className="uppercase font-bold">Policy</span>
               <span className="moving-arrow text-green-800">
                 <LiaArrowRightSolid size={24} className="" />
               </span>
             </li>
-            <li className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between">
+            <li className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between border-green-400">
               <span className="font-bold uppercase">About Us</span>
               <span className="moving-arrow text-green-800">
                 <LiaArrowRightSolid size={24} className="" />
               </span>
             </li>
-            <li className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between cursor-pointer">
+
+            <Link
+              to="/contactus"
+              onClick={handleMenu}
+              className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between cursor-pointer border-green-400"
+            >
               <span className="font-bold uppercase">Contact Us</span>
               <span className="moving-arrow text-green-800">
                 <LiaArrowRightSolid size={24} className="" />
               </span>
-            </li>
+            </Link>
           </ul>
         </div>
       </div>

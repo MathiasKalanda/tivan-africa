@@ -11,9 +11,30 @@
 // Import Routes
 
 import { Route as rootRoute } from './routes/__root'
+import { Route as ProductsImport } from './routes/products'
+import { Route as ContactusImport } from './routes/contactus'
+import { Route as AboutusImport } from './routes/aboutus'
 import { Route as IndexImport } from './routes/index'
 
 // Create/Update Routes
+
+const ProductsRoute = ProductsImport.update({
+  id: '/products',
+  path: '/products',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const ContactusRoute = ContactusImport.update({
+  id: '/contactus',
+  path: '/contactus',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const AboutusRoute = AboutusImport.update({
+  id: '/aboutus',
+  path: '/aboutus',
+  getParentRoute: () => rootRoute,
+} as any)
 
 const IndexRoute = IndexImport.update({
   id: '/',
@@ -32,6 +53,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexImport
       parentRoute: typeof rootRoute
     }
+    '/aboutus': {
+      id: '/aboutus'
+      path: '/aboutus'
+      fullPath: '/aboutus'
+      preLoaderRoute: typeof AboutusImport
+      parentRoute: typeof rootRoute
+    }
+    '/contactus': {
+      id: '/contactus'
+      path: '/contactus'
+      fullPath: '/contactus'
+      preLoaderRoute: typeof ContactusImport
+      parentRoute: typeof rootRoute
+    }
+    '/products': {
+      id: '/products'
+      path: '/products'
+      fullPath: '/products'
+      preLoaderRoute: typeof ProductsImport
+      parentRoute: typeof rootRoute
+    }
   }
 }
 
@@ -39,32 +81,47 @@ declare module '@tanstack/react-router' {
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/aboutus': typeof AboutusRoute
+  '/contactus': typeof ContactusRoute
+  '/products': typeof ProductsRoute
 }
 
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/aboutus': typeof AboutusRoute
+  '/contactus': typeof ContactusRoute
+  '/products': typeof ProductsRoute
 }
 
 export interface FileRoutesById {
   __root__: typeof rootRoute
   '/': typeof IndexRoute
+  '/aboutus': typeof AboutusRoute
+  '/contactus': typeof ContactusRoute
+  '/products': typeof ProductsRoute
 }
 
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/aboutus' | '/contactus' | '/products'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/aboutus' | '/contactus' | '/products'
+  id: '__root__' | '/' | '/aboutus' | '/contactus' | '/products'
   fileRoutesById: FileRoutesById
 }
 
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AboutusRoute: typeof AboutusRoute
+  ContactusRoute: typeof ContactusRoute
+  ProductsRoute: typeof ProductsRoute
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AboutusRoute: AboutusRoute,
+  ContactusRoute: ContactusRoute,
+  ProductsRoute: ProductsRoute,
 }
 
 export const routeTree = rootRoute
@@ -77,11 +134,23 @@ export const routeTree = rootRoute
     "__root__": {
       "filePath": "__root.jsx",
       "children": [
-        "/"
+        "/",
+        "/aboutus",
+        "/contactus",
+        "/products"
       ]
     },
     "/": {
       "filePath": "index.jsx"
+    },
+    "/aboutus": {
+      "filePath": "aboutus.jsx"
+    },
+    "/contactus": {
+      "filePath": "contactus.jsx"
+    },
+    "/products": {
+      "filePath": "products.jsx"
     }
   }
 }

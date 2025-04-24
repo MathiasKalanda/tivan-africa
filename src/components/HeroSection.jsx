@@ -27,7 +27,7 @@ const HeroSection = () => {
           <p className="text-center font-bold text-lg">
             Organic Butter. Golden Honey. Natural Oils.
           </p>{" "}
-          <span className="font-bold underline itali mb-5 text-center">
+          <span className="font-bold underline italic mb-5 text-center">
             Rooted in nature. Crafted with care.
           </span>
         </div>

@@ -21,9 +21,9 @@ const ButterMoree = () => {
             />
             <div class="space-y-6">
               <p className="text-md">
-                At Tivan, we believe that real honey should be just that—real,
-                pure, and honest. Here’s why thousands trust our natural honey
-                every day:
+                At Tivan, we craft our butter with the same care and respect
+                you’d expect from a family farm. No shortcuts. No chemicals.
+                Just rich, wholesome butter the way nature intended.
               </p>
               <ul class="space-y-3">
                 <li class="flex">
@@ -47,13 +47,13 @@ const ButterMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      100% Pure & Unprocessed
+                      100% Natural & Creamy
                     </p>
                     <p className="font-bold ml-3">
-                      Our honey comes straight from the hive to the jar—no
-                      heating, no additives, and no dilution. This preserves all
-                      the natural enzymes, antioxidants, and nutrients your body
-                      needs.
+                      Made from fresh, locally sourced cream, our butter is
+                      churned traditionally to preserve its full flavor, silky
+                      texture, and nutritional value. Absolutely no
+                      preservatives or artificial flavors.
                     </p>
                   </div>
                 </li>
@@ -78,12 +78,12 @@ const ButterMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      🐝 Sourced Directly from Local Beekeepers
+                      From Grass-Fed Cows
                     </p>
                     <p className="font-bold ml-3">
-                      We partner with trusted local beekeepers who practice
-                      ethical and eco-friendly beekeeping. Every jar supports
-                      sustainable agriculture and fair trade.
+                      We never use synthetic hormones or growth enhancers. Our
+                      butter is pure dairy fat, rich in nutrients and completely
+                      free from industrial processing.
                     </p>
                   </div>
                 </li>
@@ -108,13 +108,12 @@ const ButterMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      Lab-Tested for Quality & Authenticity
+                      No Additives or Hormones
                     </p>
                     <p className="font-bold ml-3">
-                      Each batch is independently tested to ensure it’s free
-                      from chemicals, antibiotics, and artificial sugars. You
-                      get exactly what nature intended—nothing more, nothing
-                      less.
+                      We never use synthetic hormones or growth enhancers. Our
+                      butter is pure dairy fat, rich in nutrients and completely
+                      free from industrial processing.
                     </p>
                   </div>
                 </li>
@@ -139,13 +138,18 @@ const ButterMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      Rich in Natural Health Benefits
+                      Rich in Nutrients
                     </p>
                     <p className="font-bold ml-3">
-                      Packed with antioxidants, antibacterial compounds, and
-                      prebiotics, our honey isn’t just sweet—it’s functional
-                      food for immunity, digestion, and wellness.
+                      Natural butter is an excellent source of:
                     </p>
+                    <ul className="list-disc">
+                      <li className=""> Healthy fats</li>
+                      <li className="">Conjugated Linoleic Acid (CLA)</li>
+                      <li className="">Butyrate (gut health support)</li>
+                      <li className=""> Vitamin K2 (bone and heart health)</li>
+                    </ul>
+                    <p>It’s not just food—it’s functional nutrition.</p>
                   </div>
                 </li>
                 <li class="flex">
@@ -169,20 +173,20 @@ const ButterMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      Traceable & Transparent
+                      Sustainably Produced & Packaged
                     </p>
                     <p className="font-bold ml-3">
-                      From hive location to harvest date, our labeling tells the
-                      full story. We believe in total transparency, so you can
-                      trust what you consume.
+                      Our packaging is eco-conscious and fully
+                      recyclable—because what’s good for your plate should also
+                      be good for the planet.
                     </p>
                   </div>
                 </li>
               </ul>
               <p>
-                Experience the unmatched goodness of nature in every spoonful.
-                Choose our natural honey—pure, powerful, and made with purpose.
-                Buy today and make health a habit the natural way. 🍯
+                Bring back the richness of real food. Choose our natural butter
+                for your kitchen and your health—because every meal deserves the
+                best. Buy today and cook the natural way! 🧈
               </p>
             </div>
             <hr class="my-6 w-full border-(--pattern-fg)" />

@@ -21,9 +21,10 @@ const CheeseMoree = () => {
             />
             <div class="space-y-6">
               <p className="text-md">
-                At Tivan, we believe that real honey should be just that—real,
-                pure, and honest. Here’s why thousands trust our natural honey
-                every day:
+                At Tivan, our cheese is more than a product—it’s a promise of
+                authenticity, quality, and tradition. Made from pure milk, aged
+                with care, and free from industrial additives, our cheese offers
+                both exceptional taste and trustworthy nutrition.
               </p>
               <ul class="space-y-3">
                 <li class="flex">
@@ -47,13 +48,13 @@ const CheeseMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      100% Pure & Unprocessed
+                      Crafted from Pure
                     </p>
                     <p className="font-bold ml-3">
-                      Our honey comes straight from the hive to the jar—no
-                      heating, no additives, and no dilution. This preserves all
-                      the natural enzymes, antioxidants, and nutrients your body
-                      needs.
+                      Whole Milk Our cheese begins with fresh, full-fat milk
+                      sourced from ethically raised, pasture-fed cows. No
+                      powdered milk, no substitutes—just nature’s original
+                      ingredients.
                     </p>
                   </div>
                 </li>
@@ -78,12 +79,13 @@ const CheeseMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      🐝 Sourced Directly from Local Beekeepers
+                      Free from Artificial Additives
                     </p>
                     <p className="font-bold ml-3">
-                      We partner with trusted local beekeepers who practice
-                      ethical and eco-friendly beekeeping. Every jar supports
-                      sustainable agriculture and fair trade.
+                      We never use artificial colors, preservatives,
+                      emulsifiers, or stabilizers. Our cheese is clean-label,
+                      meaning you get only the essentials: milk, cultures,
+                      rennet, and salt.
                     </p>
                   </div>
                 </li>
@@ -108,13 +110,57 @@ const CheeseMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      Lab-Tested for Quality & Authenticity
+                      Controlled Aging, Lab-Tested Quality
                     </p>
                     <p className="font-bold ml-3">
-                      Each batch is independently tested to ensure it’s free
-                      from chemicals, antibiotics, and artificial sugars. You
-                      get exactly what nature intended—nothing more, nothing
-                      less.
+                      Every wheel and block undergoes controlled aging to
+                      develop natural flavor profiles—ranging from soft and
+                      creamy to sharp and robust. We test rigorously for:
+                    </p>
+                    <ul className="list-disc">
+                      <li className="">Microbial safety</li>
+                      <li className="">Moisture balance</li>
+                      <li className="">Protein and fat consistency</li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="flex">
+                  <svg
+                    class="h-[1lh] w-5.5 shrink-0"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                    stroke-linecap="square"
+                  >
+                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
+                    <circle
+                      cx="11"
+                      cy="11"
+                      r="10.5"
+                      class="stroke-sky-400/25"
+                    />
+                    <path
+                      d="M8 11.5L10.5 14L14 8"
+                      class="stroke-sky-800 dark:stroke-sky-300"
+                    />
+                  </svg>
+                  <div className="flex flex-col">
+                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                      Nutrient-Dense and Functional
+                    </p>
+                    <p className="font-bold ml-3">Rich In</p>
+                    <ul className="list-disc">
+                      <li className="">Calcium and Phosphorus (bone health)</li>
+                      <li className="">
+                        Bioavailable Protein (muscle maintenance)
+                      </li>
+                      <li className="">
+                        Vitamin B12 and A (nerve and vision support)
+                      </li>
+                      <li className="">Healthy fats (energy and satiety)</li>
+                    </ul>
+                    <p className="">
+                      Natural cheese is not just a topping—it’s a functional
+                      food for balanced diets.
                     </p>
                   </div>
                 </li>
@@ -139,15 +185,16 @@ const CheeseMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      Rich in Natural Health Benefits
+                      Responsible Sourcing & Ethical Production
                     </p>
                     <p className="font-bold ml-3">
-                      Packed with antioxidants, antibacterial compounds, and
-                      prebiotics, our honey isn’t just sweet—it’s functional
-                      food for immunity, digestion, and wellness.
+                      Our dairy partners adhere to sustainable farming
+                      practices, animal welfare standards, and environmentally
+                      friendly production methods.
                     </p>
                   </div>
                 </li>
+
                 <li class="flex">
                   <svg
                     class="h-[1lh] w-5.5 shrink-0"
@@ -169,20 +216,22 @@ const CheeseMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      Traceable & Transparent
+                      Eco-Conscious Packaging
                     </p>
                     <p className="font-bold ml-3">
-                      From hive location to harvest date, our labeling tells the
-                      full story. We believe in total transparency, so you can
-                      trust what you consume.
+                      We use recyclable and food-safe packaging that protects
+                      freshness without compromising sustainability.
                     </p>
                   </div>
                 </li>
               </ul>
+
+              <h1 className="font-bold">Experience the Art of Real Cheese</h1>
               <p>
-                Experience the unmatched goodness of nature in every spoonful.
-                Choose our natural honey—pure, powerful, and made with purpose.
-                Buy today and make health a habit the natural way. 🍯
+                Upgrade your meals with a touch of heritage and wholesomeness.
+                Our natural cheese delivers exceptional flavor, honest
+                nutrition, and the quality your family deserves. Shop now and
+                rediscover what real cheese should taste like.
               </p>
             </div>
             <hr class="my-6 w-full border-(--pattern-fg)" />

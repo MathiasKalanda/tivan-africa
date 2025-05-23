@@ -21,9 +21,11 @@ const CowGheeMoree = () => {
             />
             <div class="space-y-6">
               <p className="text-md">
-                At Tivan, we believe that real honey should be just that—real,
-                pure, and honest. Here’s why thousands trust our natural honey
-                every day:
+                Our cow ghee is more than a cooking ingredient—it's a return to
+                tradition, purity, and wellness. At Tivan, we produce 100%
+                natural cow ghee using time-honored methods and ethically
+                sourced milk, ensuring the highest standards of quality and
+                nutritional integrity.
               </p>
               <ul class="space-y-3">
                 <li class="flex">
@@ -47,13 +49,12 @@ const CowGheeMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      100% Pure & Unprocessed
+                      Made from A2 Cow Milk
                     </p>
                     <p className="font-bold ml-3">
-                      Our honey comes straight from the hive to the jar—no
-                      heating, no additives, and no dilution. This preserves all
-                      the natural enzymes, antioxidants, and nutrients your body
-                      needs.
+                      We use pure, full-cream milk from grass-fed cows, rich in
+                      A2 beta-casein protein. This results in ghee that is easy
+                      to digest, nutrient-dense, and naturally flavorful.
                     </p>
                   </div>
                 </li>
@@ -78,12 +79,13 @@ const CowGheeMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      🐝 Sourced Directly from Local Beekeepers
+                      🐝 Traditional Bilona Method
                     </p>
                     <p className="font-bold ml-3">
-                      We partner with trusted local beekeepers who practice
-                      ethical and eco-friendly beekeeping. Every jar supports
-                      sustainable agriculture and fair trade.
+                      Crafted using the ancient bilona churning process, our
+                      ghee is slowly simmered from cultured curd—not cream—to
+                      retain its aromatic richness and enhance bioavailability
+                      of fat-soluble vitamins.
                     </p>
                   </div>
                 </li>
@@ -108,13 +110,12 @@ const CowGheeMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      Lab-Tested for Quality & Authenticity
+                      Zero Additives, Zero Preservatives
                     </p>
                     <p className="font-bold ml-3">
-                      Each batch is independently tested to ensure it’s free
-                      from chemicals, antibiotics, and artificial sugars. You
-                      get exactly what nature intended—nothing more, nothing
-                      less.
+                      No synthetic colors, no artificial flavors, no
+                      preservatives. Our ghee is pure fat with no hidden
+                      ingredients—just nature in its most refined form.
                     </p>
                   </div>
                 </li>
@@ -139,13 +140,24 @@ const CowGheeMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      Rich in Natural Health Benefits
+                      Packed with Nutrients & Functional Benefits
                     </p>
                     <p className="font-bold ml-3">
-                      Packed with antioxidants, antibacterial compounds, and
-                      prebiotics, our honey isn’t just sweet—it’s functional
-                      food for immunity, digestion, and wellness.
+                      Natural cow ghee is a powerhouse of:
                     </p>
+                    <ul className="list-disc">
+                      <li className="">
+                        Healthy saturated fats (supports heart and brain)
+                      </li>
+                      <li className="">Vitamins A, D, E, and K2</li>
+                      <li className="">
+                        CLA (Conjugated Linoleic Acid) – known for
+                        anti-inflammatory and fat metabolism properties
+                      </li>
+                      <li className="">
+                        Butyrate – supports gut health and detoxification
+                      </li>
+                    </ul>
                   </div>
                 </li>
                 <li class="flex">
@@ -169,20 +181,62 @@ const CowGheeMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-lg underline">
-                      Traceable & Transparent
+                      Lab-Tested for Purity and Potency
                     </p>
                     <p className="font-bold ml-3">
-                      From hive location to harvest date, our labeling tells the
-                      full story. We believe in total transparency, so you can
-                      trust what you consume.
+                      Every batch undergoes stringent quality checks to ensure:
+                    </p>
+                    <ul className="list-disc">
+                      <li className="">No adulteration</li>
+                      <li className="">Optimal melting point and color</li>
+                      <li className="">
+                        Shelf stability without refrigeration
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="flex">
+                  <svg
+                    class="h-[1lh] w-5.5 shrink-0"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                    stroke-linecap="square"
+                  >
+                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
+                    <circle
+                      cx="11"
+                      cy="11"
+                      r="10.5"
+                      class="stroke-sky-400/25"
+                    />
+                    <path
+                      d="M8 11.5L10.5 14L14 8"
+                      class="stroke-sky-800 dark:stroke-sky-300"
+                    />
+                  </svg>
+                  <div className="flex flex-col">
+                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                      Ethical & Sustainable Production
+                    </p>
+                    <p className="font-bold ml-3">
+                      Our dairy operations are free from hormones and
+                      antibiotics, with cows raised in a stress-free, natural
+                      environment. Our packaging is recyclable and BPA-free,
+                      supporting sustainability from farm to kitchen.
                     </p>
                   </div>
                 </li>
               </ul>
+
+              <h1 className="font-bold">
+                {" "}
+                Elevate Your Cooking. Enrich Your Life.
+              </h1>
               <p>
-                Experience the unmatched goodness of nature in every spoonful.
-                Choose our natural honey—pure, powerful, and made with purpose.
-                Buy today and make health a habit the natural way. 🍯
+                Whether you’re cooking, baking, or following a traditional
+                wellness regimen, our cow ghee offers unmatched purity, taste,
+                and nourishment. Choose real. Choose rich. Choose our natural
+                cow ghee. Order now and taste the golden standard.
               </p>
             </div>
             <hr class="my-6 w-full border-(--pattern-fg)" />

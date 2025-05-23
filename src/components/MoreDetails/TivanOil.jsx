@@ -21,9 +21,11 @@ const TivanOil = () => {
             />
             <div className="space-y-6">
               <p className="text-md">
-                At Tivan, we believe that real honey should be just that—real,
-                pure, and honest. Here’s why thousands trust our natural honey
-                every day:
+                Our castor oil is a testament to purity, versatility, and
+                wellness. Sourced from premium-grade castor seeds and
+                cold-pressed for maximum potency, At Tivan delivers 100% pure,
+                chemical-free castor oil you can trust for both personal care
+                and therapeutic use.
               </p>
               <ul className="space-y-3">
                 <li className="flex">
@@ -52,13 +54,13 @@ const TivanOil = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p className="ml-3 font-bold text-green-900 text-lg underline">
-                      100% Pure & Unprocessed
+                      Cold-Pressed & Hexane-Free
                     </p>
                     <p className="font-bold ml-3">
-                      Our honey comes straight from the hive to the jar—no
-                      heating, no additives, and no dilution. This preserves all
-                      the natural enzymes, antioxidants, and nutrients your body
-                      needs.
+                      We extract our oil using cold-press technology—no heat, no
+                      solvents, and no hexane. This preserves the oil’s natural
+                      nutrients, enzymes, and fatty acids, ensuring maximum
+                      efficacy and safety.
                     </p>
                   </div>
                 </li>
@@ -88,12 +90,20 @@ const TivanOil = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p className="ml-3 font-bold text-green-900 text-lg underline">
-                      🐝 Sourced Directly from Local Beekeepers
+                      100% Pure & Unrefined
                     </p>
-                    <p className="font-bold ml-3">
-                      We partner with trusted local beekeepers who practice
-                      ethical and eco-friendly beekeeping. Every jar supports
-                      sustainable agriculture and fair trade.
+                    <p className="font-bold ml-3">Our oil is</p>
+                    <ul className="list-disc">
+                      <li className="">Unbleached</li>
+                      <li className="">Undeodorized</li>
+                      <li className="">
+                        Free from synthetic additives, parabens, and mineral
+                        oils
+                      </li>
+                    </ul>
+                    <p className="">
+                      What you get is raw, unadulterated castor oil—as close to
+                      nature as possible.
                     </p>
                   </div>
                 </li>

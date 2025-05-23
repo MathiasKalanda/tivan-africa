@@ -10,19 +10,24 @@ const DetailedProducts = () => {
       slug: "natural-honey",
     },
     {
-      name: "Noushrized Bitter",
+      name: "Noushrized Butter",
       image: "/honeyinto.jpg",
-      slug: "noushrized-bitter",
+      slug: "natural-butter",
+    },
+    {
+      name: "Noushrized Cheese",
+      image: "/honeyinto.jpg",
+      slug: "natural-cheese",
     },
     {
       name: "Organic Oil",
       image: "/honeyinto.jpg",
-      slug: "organic-oil",
+      slug: "natural-tivanoil",
     },
     {
-      name: "Natural Honey",
+      name: "Natural CowGhee",
       image: "/honeyinto.jpg",
-      slug: "natural-honey-2",
+      slug: "natural-cowghee",
     },
   ];
   return (

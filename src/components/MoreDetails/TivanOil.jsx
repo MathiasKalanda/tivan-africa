@@ -1,52 +1,57 @@
 import React from "react";
 
-const HoneyMoree = () => {
+const TivanOil = () => {
   return (
     <div className="mt-6">
       <div className="">
-        <img src="/flyers\1000728713.jpg" alt="" />
+        <img src="/flyers\1000728709.jpg" alt="" />
       </div>
-      <div class="relative grid min-h-screen grid-cols-[1fr_2.5rem_auto_2.5rem_1fr] grid-rows-[1fr_1px_auto_1px_1fr] bg-white [--pattern-fg:var(--color-gray-950)]/5 dark:bg-gray-950 dark:[--pattern-fg:var(--color-white)]/10">
-        <div class="col-start-3 row-start-3 flex max-w-lg flex-col bg-gray-100 p-2 dark:bg-white/10">
-          <div class="rounded-xl bg-white p-10 text-sm/7 text-gray-700 dark:bg-gray-950 dark:text-gray-300">
+      <div className="relative grid min-h-screen grid-cols-[1fr_2.5rem_auto_2.5rem_1fr] grid-rows-[1fr_1px_auto_1px_1fr] bg-white [--pattern-fg:var(--color-gray-950)]/5 dark:bg-gray-950 dark:[--pattern-fg:var(--color-white)]/10">
+        <div className="col-start-3 row-start-3 flex max-w-lg flex-col bg-gray-100 p-2 dark:bg-white/10">
+          <div className="rounded-xl bg-white p-10 text-sm/7 text-gray-700 dark:bg-gray-950 dark:text-gray-300">
             <img
               src="/img/logo.svg"
-              class="mb-11.5 h-6 dark:hidden"
+              className="mb-11.5 h-6 dark:hidden"
               alt="tivan-honey"
             />
             <img
               src="/img/logo-dark.svg"
-              class="mb-11.5 h-6 not-dark:hidden"
+              className="mb-11.5 h-6 not-dark:hidden"
               alt="tivan-honey"
             />
-            <div class="space-y-6">
+            <div className="space-y-6">
               <p className="text-md">
                 At Tivan, we believe that real honey should be just that—real,
                 pure, and honest. Here’s why thousands trust our natural honey
                 every day:
               </p>
-              <ul class="space-y-3">
-                <li class="flex">
+              <ul className="space-y-3">
+                <li className="flex">
                   <svg
-                    class="h-[1lh] w-5.5 shrink-0"
+                    className="h-[1lh] w-5.5 shrink-0"
                     viewBox="0 0 22 22"
                     fill="none"
                     stroke-linecap="square"
                   >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
+                    <circle
+                      cx="11"
+                      cy="11"
+                      r="11"
+                      className="fill-sky-400/25"
+                    />
                     <circle
                       cx="11"
                       cy="11"
                       r="10.5"
-                      class="stroke-sky-400/25"
+                      className="stroke-sky-400/25"
                     />
                     <path
                       d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
+                      className="stroke-sky-800 dark:stroke-sky-300"
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p className="ml-3 font-bold text-green-900 text-lg underline">
                       100% Pure & Unprocessed
                     </p>
                     <p className="font-bold ml-3">
@@ -57,27 +62,32 @@ const HoneyMoree = () => {
                     </p>
                   </div>
                 </li>
-                <li class="flex">
+                <li className="flex">
                   <svg
-                    class="h-[1lh] w-5.5 shrink-0"
+                    className="h-[1lh] w-5.5 shrink-0"
                     viewBox="0 0 22 22"
                     fill="none"
                     stroke-linecap="square"
                   >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
+                    <circle
+                      cx="11"
+                      cy="11"
+                      r="11"
+                      className="fill-sky-400/25"
+                    />
                     <circle
                       cx="11"
                       cy="11"
                       r="10.5"
-                      class="stroke-sky-400/25"
+                      className="stroke-sky-400/25"
                     />
                     <path
                       d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
+                      className="stroke-sky-800 dark:stroke-sky-300"
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p className="ml-3 font-bold text-green-900 text-lg underline">
                       🐝 Sourced Directly from Local Beekeepers
                     </p>
                     <p className="font-bold ml-3">
@@ -87,27 +97,32 @@ const HoneyMoree = () => {
                     </p>
                   </div>
                 </li>
-                <li class="flex">
+                <li className="flex">
                   <svg
-                    class="h-[1lh] w-5.5 shrink-0"
+                    className="h-[1lh] w-5.5 shrink-0"
                     viewBox="0 0 22 22"
                     fill="none"
                     stroke-linecap="square"
                   >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
+                    <circle
+                      cx="11"
+                      cy="11"
+                      r="11"
+                      className="fill-sky-400/25"
+                    />
                     <circle
                       cx="11"
                       cy="11"
                       r="10.5"
-                      class="stroke-sky-400/25"
+                      className="stroke-sky-400/25"
                     />
                     <path
                       d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
+                      className="stroke-sky-800 dark:stroke-sky-300"
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p className="ml-3 font-bold text-green-900 text-lg underline">
                       Lab-Tested for Quality & Authenticity
                     </p>
                     <p className="font-bold ml-3">
@@ -118,27 +133,32 @@ const HoneyMoree = () => {
                     </p>
                   </div>
                 </li>
-                <li class="flex">
+                <li className="flex">
                   <svg
-                    class="h-[1lh] w-5.5 shrink-0"
+                    className="h-[1lh] w-5.5 shrink-0"
                     viewBox="0 0 22 22"
                     fill="none"
                     stroke-linecap="square"
                   >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
+                    <circle
+                      cx="11"
+                      cy="11"
+                      r="11"
+                      className="fill-sky-400/25"
+                    />
                     <circle
                       cx="11"
                       cy="11"
                       r="10.5"
-                      class="stroke-sky-400/25"
+                      className="stroke-sky-400/25"
                     />
                     <path
                       d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
+                      className="stroke-sky-800 dark:stroke-sky-300"
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p className="ml-3 font-bold text-green-900 text-lg underline">
                       Rich in Natural Health Benefits
                     </p>
                     <p className="font-bold ml-3">
@@ -148,27 +168,32 @@ const HoneyMoree = () => {
                     </p>
                   </div>
                 </li>
-                <li class="flex">
+                <li className="flex">
                   <svg
-                    class="h-[1lh] w-5.5 shrink-0"
+                    className="h-[1lh] w-5.5 shrink-0"
                     viewBox="0 0 22 22"
                     fill="none"
                     stroke-linecap="square"
                   >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
+                    <circle
+                      cx="11"
+                      cy="11"
+                      r="11"
+                      className="fill-sky-400/25"
+                    />
                     <circle
                       cx="11"
                       cy="11"
                       r="10.5"
-                      class="stroke-sky-400/25"
+                      className="stroke-sky-400/25"
                     />
                     <path
                       d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
+                      className="stroke-sky-800 dark:stroke-sky-300"
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p className="ml-3 font-bold text-green-900 text-lg underline">
                       Traceable & Transparent
                     </p>
                     <p className="font-bold ml-3">
@@ -185,31 +210,31 @@ const HoneyMoree = () => {
                 Buy today and make health a habit the natural way. 🍯
               </p>
             </div>
-            <hr class="my-6 w-full border-(--pattern-fg)" />
+            <hr className="my-6 w-full border-(--pattern-fg)" />
 
-            <div class="font-semibold ">
+            <div className="font-semibold ">
               <a
                 href=""
-                class="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 dark:text-white mx-4"
+                className="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 dark:text-white mx-4"
               >
                 Make An Order &rarr;
               </a>
               <a
                 href=""
-                class="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 dark:text-white"
+                className="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 dark:text-white"
               >
                 Contact Us &rarr;
               </a>
             </div>
           </div>
         </div>
-        <div class="relative -right-px col-start-2 row-span-full row-start-1 border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed"></div>
-        <div class="relative -left-px col-start-4 row-span-full row-start-1 border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed"></div>
-        <div class="relative -bottom-px col-span-full col-start-1 row-start-2 h-px bg-(--pattern-fg)"></div>
-        <div class="relative -top-px col-span-full col-start-1 row-start-4 h-px bg-(--pattern-fg)"></div>
+        <div className="relative -right-px col-start-2 row-span-full row-start-1 border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed"></div>
+        <div className="relative -left-px col-start-4 row-span-full row-start-1 border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed"></div>
+        <div className="relative -bottom-px col-span-full col-start-1 row-start-2 h-px bg-(--pattern-fg)"></div>
+        <div className="relative -top-px col-span-full col-start-1 row-start-4 h-px bg-(--pattern-fg)"></div>
       </div>
     </div>
   );
 };
 
-export default HoneyMoree;
+export default TivanOil;

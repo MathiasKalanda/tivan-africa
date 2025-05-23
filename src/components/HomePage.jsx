@@ -18,7 +18,7 @@ const HomePage = () => {
       <DetailedProducts />
       <Oil />
       <HoneyGallery />
-      <Dimensions />
+      {/* <Dimensions /> */}
       <DisplayProducts />
       {/* <HeroSection /> */}
       {/* <Butter /> */}

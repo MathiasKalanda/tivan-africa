@@ -1,10 +1,10 @@
 import React from "react";
 
-const HoneyMoree = () => {
+const CheeseMoree = () => {
   return (
     <div className="mt-6">
       <div className="">
-        <img src="/flyers\1000728713.jpg" alt="" />
+        <img src="/flyers\1000728711.jpg" alt="" />
       </div>
       <div class="relative grid min-h-screen grid-cols-[1fr_2.5rem_auto_2.5rem_1fr] grid-rows-[1fr_1px_auto_1px_1fr] bg-white [--pattern-fg:var(--color-gray-950)]/5 dark:bg-gray-950 dark:[--pattern-fg:var(--color-white)]/10">
         <div class="col-start-3 row-start-3 flex max-w-lg flex-col bg-gray-100 p-2 dark:bg-white/10">
@@ -12,12 +12,12 @@ const HoneyMoree = () => {
             <img
               src="/img/logo.svg"
               class="mb-11.5 h-6 dark:hidden"
-              alt="tivan-honey"
+              alt="tivan-cheese"
             />
             <img
               src="/img/logo-dark.svg"
               class="mb-11.5 h-6 not-dark:hidden"
-              alt="tivan-honey"
+              alt="tivan-cheese"
             />
             <div class="space-y-6">
               <p className="text-md">
@@ -212,4 +212,4 @@ const HoneyMoree = () => {
   );
 };
 
-export default HoneyMoree;
+export default CheeseMoree;

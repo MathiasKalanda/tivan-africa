@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import React from "react";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
@@ -6,18 +7,22 @@ const DetailedProducts = () => {
     {
       name: "Natural Honey",
       image: "/honeyinto.jpg",
+      slug: "natural-honey",
     },
     {
       name: "Noushrized Bitter",
       image: "/honeyinto.jpg",
+      slug: "noushrized-bitter",
     },
     {
       name: "Organic Oil",
       image: "/honeyinto.jpg",
+      slug: "organic-oil",
     },
     {
       name: "Natural Honey",
       image: "/honeyinto.jpg",
+      slug: "natural-honey-2",
     },
   ];
   return (
@@ -40,13 +45,17 @@ const DetailedProducts = () => {
                 </div>
               </div>
               <div className="flex flex-row my-5 gap-5 justify-end">
-                <button className="flex flex-row justify-center items-center gap-3 border-1 px-4 py-1 rounded-4xl font-bold">
+                <Link
+                  to="/products/$slug"
+                  params={{ slug: product.slug }}
+                  className="flex flex-row justify-center items-center gap-3 border-1 px-4 py-1 rounded-4xl font-bold"
+                >
                   Learn More
                   <FaArrowAltCircleRight
                     className="moving-arrow text-lime-950"
                     size="24"
                   />
-                </button>
+                </Link>
                 <button className="flex flex-row justify-center items-center gap-3  px-2 py-1 rounded-4xl font-bold bg-orange-600 text-white">
                   Order Now
                   <FaArrowAltCircleRight

@@ -21,10 +21,10 @@ const Navbar = () => {
   return (
     <div className="bg-black fixed w-full top-0 z-50">
       <div className="flex flex-row justify-between mx-3">
-        <div className="p-3">
+        <Link className="p-3" to="/">
           <img src="/Logo.png" alt="" className="w-7 flex md:hidden" />
           <img src="/logofull.png" alt="" className="w-30 hidden md:flex" />
-        </div>
+        </Link>
         <div className="flex flex-row gap-4 p-3">
           <button className=" text-white">
             <CiSearch size={24} />

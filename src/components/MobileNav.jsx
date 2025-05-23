@@ -21,7 +21,7 @@ const MobileNav = ({ isOpen, MdClose, handleMenu }) => {
         <div className="self-start  h-full w-full px-10 py-6">
           <ul className="text-white">
             <Link
-              to="/products"
+              to="/productPage"
               onClick={handleMenu}
               className="py-3 px-4 rounded-3xl border-green-400 border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between"
             >

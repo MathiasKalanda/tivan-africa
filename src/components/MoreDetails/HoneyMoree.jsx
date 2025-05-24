@@ -6,23 +6,27 @@ import { FaStarHalfAlt } from "react-icons/fa";
 const HoneyMoree = () => {
   const honeyDetails = [
     {
-      name: "product Name Moistured",
+      name: "Honey ",
       price: "ugx 15000",
+      quantity: "500g",
       image: "/honeyinto.jpg",
     },
     {
-      name: "product Name Moistured",
-      price: "ugx 15000",
+      name: "Honey ",
+      price: "ugx 30000",
+      quantity: "1KG",
       image: "/honeyinto.jpg",
     },
     {
-      name: "product Name Moistured",
+      name: "Honey ",
       price: "ugx 15000",
+      quantity: "250g",
       image: "/honeyinto.jpg",
     },
     {
-      name: "product Name Moistured",
+      name: "Honey ",
       price: "ugx 15000",
+      quantity: "200g",
       image: "/honeyinto.jpg",
     },
   ];
@@ -46,8 +50,8 @@ const HoneyMoree = () => {
       </div>
 
       <div className="mt-16">
-        <h1 className="text-center font-bold text-3xl">
-          Best Sales of beauty products
+        <h1 className="text-center font-bold text-3xl capitalize">
+          Categories for our Honey Products
         </h1>
         <p className="text-center text-sm px-10 my-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolor
@@ -58,7 +62,6 @@ const HoneyMoree = () => {
         {honeyDetails.map((honey, index) => (
           <div key={index} className="bg-white rounded-xl shadow-md p-4">
             <div className="w-full h-48 rounded-xl bg-amber-300 flex items-center justify-center">
-              {/* Ideally use <img src={honey.image} /> */}
               <img
                 src={honey.image}
                 alt="Honey"
@@ -73,8 +76,17 @@ const HoneyMoree = () => {
                 <FaStar className="text-orange-500" />
                 <FaStarHalfAlt className="text-orange-500" />
               </div>
-              <h1 className="font-bold my-2 capitalize">{honey.name}</h1>
-              <h1 className="text-orange-500 uppercase">{honey.price}</h1>
+              <div className="flex flex-row justify-between items-center">
+                {" "}
+                <h1 className="font-bold my-2 uppercase">{honey.name}</h1>
+                <h1 className="font-bold ">{honey.quantity}</h1>
+              </div>
+              <div className="">
+                <h1 className="text-orange-500 uppercase">{honey.price}</h1>
+                <button className="bg-black text-white text-center px-4 rounded-xl mt-2">
+                  Order
+                </button>
+              </div>
             </div>
           </div>
         ))}

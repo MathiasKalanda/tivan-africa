@@ -27,10 +27,10 @@ const CheeseMoree = () => {
   ];
   return (
     <div className="mt-16">
-      <div className="bg-blue-400 h-64 flex flex-row justify-start items-center m-3 rounded-2xl">
-        <div className="w-3/4 pr-6">
+      <div className="bg-blue-400 h-64 flex flex-row justify-end items-center  md:m-3 rounded-2xl bg-[url('/flyers/1000728711.jpg')] bg-cover bg-center">
+        {/* <div className="w-3/4 pr-6 ">
           {" "}
-          <h1 className="ml-6 font-bold text-3xl">
+          <h1 className="ml-6 font-bold md:text-3xl text-xl ">
             Make Your Diet Shine Naturally With Our Products
           </h1>
           <p className="ml-6 mt-2">
@@ -40,8 +40,8 @@ const CheeseMoree = () => {
           <button className="ml-6 bg-orange-600 px-3 py-2 rounded-2xl font-bold mt-4">
             Order Now
           </button>
-        </div>
-        <div className="bg-black w-28 h-52 pl-3 rounded-2xl"></div>
+        </div> */}
+        <div className="bg-black w-28 h-52 pl-3 rounded-2xl bg-[url('/flyers/1000728711.jpg')] bg-cover bg-center"></div>
       </div>
 
       <div className="mt-16">

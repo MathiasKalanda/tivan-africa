@@ -1,3 +1,4 @@
+import { div } from "framer-motion/client";
 import React from "react";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
@@ -5,28 +6,28 @@ import { FaStarHalfAlt } from "react-icons/fa";
 const CheeseMoree = () => {
   const honeyDetails = [
     {
-      name: "product Name Moistured",
+      name: "mozarrela cheese",
       price: "ugx 15000",
       quantity: "500g",
-      iamge: "/honeyinto.jpg",
+      iamge: "/mozarella.jpg",
     },
     {
-      name: "product Name Moistured",
+      name: "cheddar cheese",
       price: "ugx 15000",
       quantity: "500g",
-      iamge: "/honeyinto.jpg",
+      iamge: "/cheddar.jpg",
     },
     {
-      name: "product Name Moistured",
+      name: "gouda cheese",
       price: "ugx 15000",
       quantity: "500g",
-      iamge: "/honeyinto.jpg",
+      iamge: "/gouda.jpg",
     },
     {
-      name: "product Name Moistured",
+      name: "paneer cheese",
       price: "ugx 15000",
       quantity: "500g",
-      iamge: "/honeyinto.jpg",
+      iamge: "/paneer.jpg",
     },
   ];
   return (
@@ -49,14 +50,28 @@ const CheeseMoree = () => {
       </div>
 
       <div className="mt-16">
-        <h1 className="text-center font-bold text-3xl">
-          Best Sales of beauty products
+        <h1 className="text-center font-extrabold md:text-3xl text-xl uppercase">
+          Best Sales on all the types of cheese
         </h1>
         <p className="text-center text-sm px-10 my-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolor
           soluta dicta reiciendis possimus asperiores.
         </p>
       </div>
+      <div className="grid grid-cols-2 place-items-center">
+        {" "}
+        {honeyDetails.map((honey, index) => (
+          <div className="" key={index}>
+            <div className="my-5">
+              <img src={honey.iamge} alt="" className="w-44 h-36 rounded-xl" />
+              <h1 className="text-center font-bold uppercase my-2 underline">
+                {honey.name}
+              </h1>
+            </div>
+          </div>
+        ))}
+      </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-10 mt-10">
         {honeyDetails.map((honey, index) => (
           <div key={index} className="bg-white rounded-xl shadow-md p-4">

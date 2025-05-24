@@ -5,7 +5,7 @@ import Oil from "./Oil";
 import Dimensions from "./Dimensions";
 import HoneyGallery from "./HoneyGallery";
 import DisplayProducts from "./DisplayProducts";
-import HeroSection from "./HeroSection";
+
 import Hero from "./Hero";
 import DetailedProducts from "./DetailedProducts";
 
@@ -18,10 +18,8 @@ const HomePage = () => {
       <DetailedProducts />
       <Oil />
       <HoneyGallery />
-      {/* <Dimensions /> */}
+
       <DisplayProducts />
-      {/* <HeroSection /> */}
-      {/* <Butter /> */}
     </div>
   );
 };

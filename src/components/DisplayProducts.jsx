@@ -3,29 +3,29 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 const products = [
   {
-    name: "Refined Oil",
+    name: "Castor Oil",
     description: "Purely refined for daily use.",
     image: "/refined-removebg-preview.png",
   },
   {
     name: "Natural Honey",
     description: "Harvested straight from the hive.",
-    image: "/oil1nobg.png",
+    image: "/honeyinto.jpg",
   },
   {
     name: "Organic Butter",
     description: "Smooth and fresh from farms.",
-    image: "/fry-removebg-preview.png",
+    image: "flyers/buuter22.jpg",
   },
   {
-    name: "Fresh Milk",
+    name: "Fresh Cow Ghee",
     description: "From grass-fed dairy cows.",
-    image: "/oil2nobg.png",
+    image: "flyers/ghee.jpg",
   },
   {
-    name: "Herbal Tea",
+    name: "Pure Tasty Cheese",
     description: "Relax and unwind naturally.",
-    image: "/Organic-removebg-preview.png",
+    image: "flyers/cheese.jpg",
   },
 ];
 
@@ -56,12 +56,12 @@ const DisplayProducts = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.6 }}
-            className="flex flex-row justify-center items-center gap-6 px-2 absolute"
+            className="flex flex-row justify-center items-center gap-6 px-2 absolute rounded-2xl"
           >
             <img
               src={products[current].image}
               alt={products[current].name}
-              className="w-50 h-80 object-contain"
+              className="w-50 h-80 object-contain rounded-2xl"
             />
             <div>
               <h1 className="uppercase font-black text-transparent bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text underline text-2xl">

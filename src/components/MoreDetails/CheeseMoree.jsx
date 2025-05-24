@@ -66,7 +66,7 @@ const CheeseMoree = () => {
               <img
                 src={honey.iamge}
                 alt=""
-                className="w-32 sm:w-32 md:w-44 h-36 rounded-xl"
+                className="w-36 sm:w-32 md:w-44 h-36 rounded-xl"
               />
               <h1 className="text-center font-bold uppercase my-2 underline">
                 {honey.name}

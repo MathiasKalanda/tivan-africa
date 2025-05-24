@@ -1,216 +1,82 @@
 import React from "react";
+import { FaStar } from "react-icons/fa";
+import { FaStarHalfAlt } from "react-icons/fa";
 
 const ButterMoree = () => {
+  const honeyDetails = [
+    {
+      name: "product Name Moistured",
+      price: "ugx 15000",
+      iamge: "/honeyinto.jpg",
+    },
+    {
+      name: "product Name Moistured",
+      price: "ugx 15000",
+      iamge: "/honeyinto.jpg",
+    },
+    {
+      name: "product Name Moistured",
+      price: "ugx 15000",
+      iamge: "/honeyinto.jpg",
+    },
+    {
+      name: "product Name Moistured",
+      price: "ugx 15000",
+      iamge: "/honeyinto.jpg",
+    },
+  ];
   return (
-    <div className="mt-6">
-      <div className="">
-        <img src="/flyers\1000728708.jpg" alt="" />
+    <div className="mt-16">
+      <div className="bg-blue-400 h-64 flex flex-row justify-start items-center m-3 rounded-2xl">
+        <div className="w-3/4 pr-6">
+          {" "}
+          <h1 className="ml-6 font-bold text-3xl">
+            Make Your Diet Shine Naturally With Our Products
+          </h1>
+          <p className="ml-6 mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            eaque sint libero?
+          </p>
+          <button className="ml-6 bg-orange-600 px-3 py-2 rounded-2xl font-bold mt-4">
+            Order Now
+          </button>
+        </div>
+        <div className="bg-black w-28 h-52 pl-3 rounded-2xl"></div>
       </div>
-      <div class="relative grid min-h-screen grid-cols-[1fr_2.5rem_auto_2.5rem_1fr] grid-rows-[1fr_1px_auto_1px_1fr] bg-white [--pattern-fg:var(--color-gray-950)]/5 dark:bg-gray-950 dark:[--pattern-fg:var(--color-white)]/10">
-        <div class="col-start-3 row-start-3 flex max-w-lg flex-col bg-gray-100 p-2 dark:bg-white/10">
-          <div class="rounded-xl bg-white p-10 text-sm/7 text-gray-700 dark:bg-gray-950 dark:text-gray-300">
-            <img
-              src="/img/logo.svg"
-              class="mb-11.5 h-6 dark:hidden"
-              alt="tivan-butter"
-            />
-            <img
-              src="/img/logo-dark.svg"
-              class="mb-11.5 h-6 not-dark:hidden"
-              alt="tivan-butter"
-            />
-            <div class="space-y-6">
-              <p className="text-md">
-                At Tivan, we craft our butter with the same care and respect
-                you’d expect from a family farm. No shortcuts. No chemicals.
-                Just rich, wholesome butter the way nature intended.
-              </p>
-              <ul class="space-y-3">
-                <li class="flex">
-                  <svg
-                    class="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      class="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-md underline">
-                      100% Natural & Creamy
-                    </p>
-                    <p className="font-bold ">
-                      Made from fresh, locally sourced cream, our butter is
-                      churned traditionally to preserve its full flavor, silky
-                      texture, and nutritional value. Absolutely no
-                      preservatives or artificial flavors.
-                    </p>
-                  </div>
-                </li>
-                <li class="flex">
-                  <svg
-                    class="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      class="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-md underline">
-                      From Grass-Fed Cows
-                    </p>
-                    <p className="font-bold ">
-                      We never use synthetic hormones or growth enhancers. Our
-                      butter is pure dairy fat, rich in nutrients and completely
-                      free from industrial processing.
-                    </p>
-                  </div>
-                </li>
-                <li class="flex">
-                  <svg
-                    class="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      class="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-md underline">
-                      No Additives or Hormones
-                    </p>
-                    <p className="font-bold ">
-                      We never use synthetic hormones or growth enhancers. Our
-                      butter is pure dairy fat, rich in nutrients and completely
-                      free from industrial processing.
-                    </p>
-                  </div>
-                </li>
-                <li class="flex">
-                  <svg
-                    class="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      class="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-md underline">
-                      Rich in Nutrients
-                    </p>
-                    <p className="font-bold ">
-                      Natural butter is an excellent source of:
-                    </p>
-                    <ul className="list-disc">
-                      <li className=""> Healthy fats</li>
-                      <li className="">Conjugated Linoleic Acid (CLA)</li>
-                      <li className="">Butyrate (gut health support)</li>
-                      <li className=""> Vitamin K2 (bone and heart health)</li>
-                    </ul>
-                    <p>It’s not just food—it’s functional nutrition.</p>
-                  </div>
-                </li>
-                <li class="flex">
-                  <svg
-                    class="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      class="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-md underline">
-                      Sustainably Produced & Packaged
-                    </p>
-                    <p className="font-bold ">
-                      Our packaging is eco-conscious and fully
-                      recyclable—because what’s good for your plate should also
-                      be good for the planet.
-                    </p>
-                  </div>
-                </li>
-              </ul>
-              <p>
-                Bring back the richness of real food. Choose our natural butter
-                for your kitchen and your health—because every meal deserves the
-                best. Buy today and cook the natural way! 🧈
-              </p>
-            </div>
-            <hr class="my-6 w-full border-(--pattern-fg)" />
 
-            <div class="font-semibold ">
-              <a
-                href=""
-                class="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 dark:text-white mx-4"
-              >
-                Make An Order &rarr;
-              </a>
-              <a
-                href=""
-                class="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 dark:text-white"
-              >
-                Contact Us &rarr;
-              </a>
+      <div className="mt-16">
+        <h1 className="text-center font-bold text-3xl">
+          Best Sales of beauty products
+        </h1>
+        <p className="text-center text-sm px-10 my-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolor
+          soluta dicta reiciendis possimus asperiores.
+        </p>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-10 mt-10">
+        {honeyDetails.map((honey, index) => (
+          <div key={index} className="bg-white rounded-xl shadow-md p-4">
+            <div className="w-full h-48 rounded-xl bg-amber-300 flex items-center justify-center">
+              {/* Ideally use <img src={honey.image} /> */}
+              <img
+                src={honey.iamge}
+                alt="Honey"
+                className="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+            <div className="mt-6">
+              <div className="flex flex-row">
+                <FaStar className="text-orange-500" />
+                <FaStar className="text-orange-500" />
+                <FaStar className="text-orange-500" />
+                <FaStar className="text-orange-500" />
+                <FaStarHalfAlt className="text-orange-500" />
+              </div>
+              <h1 className="font-bold my-2 capitalize">{honey.name}</h1>
+              <h1 className="text-orange-500 uppercase">{honey.price}</h1>
             </div>
           </div>
-        </div>
-        <div class="relative -right-px col-start-2 row-span-full row-start-1 border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed"></div>
-        <div class="relative -left-px col-start-4 row-span-full row-start-1 border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed"></div>
-        <div class="relative -bottom-px col-span-full col-start-1 row-start-2 h-px bg-(--pattern-fg)"></div>
-        <div class="relative -top-px col-span-full col-start-1 row-start-4 h-px bg-(--pattern-fg)"></div>
+        ))}
       </div>
     </div>
   );

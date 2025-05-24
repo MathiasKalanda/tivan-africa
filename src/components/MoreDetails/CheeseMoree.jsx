@@ -1,261 +1,82 @@
 import React from "react";
+import { FaStar } from "react-icons/fa";
+import { FaStarHalfAlt } from "react-icons/fa";
 
 const CheeseMoree = () => {
+  const honeyDetails = [
+    {
+      name: "product Name Moistured",
+      price: "ugx 15000",
+      iamge: "/honeyinto.jpg",
+    },
+    {
+      name: "product Name Moistured",
+      price: "ugx 15000",
+      iamge: "/honeyinto.jpg",
+    },
+    {
+      name: "product Name Moistured",
+      price: "ugx 15000",
+      iamge: "/honeyinto.jpg",
+    },
+    {
+      name: "product Name Moistured",
+      price: "ugx 15000",
+      iamge: "/honeyinto.jpg",
+    },
+  ];
   return (
-    <div className="mt-6">
-      <div className="">
-        <img src="/flyers\1000728711.jpg" alt="" />
+    <div className="mt-16">
+      <div className="bg-blue-400 h-64 flex flex-row justify-start items-center m-3 rounded-2xl">
+        <div className="w-3/4 pr-6">
+          {" "}
+          <h1 className="ml-6 font-bold text-3xl">
+            Make Your Diet Shine Naturally With Our Products
+          </h1>
+          <p className="ml-6 mt-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            eaque sint libero?
+          </p>
+          <button className="ml-6 bg-orange-600 px-3 py-2 rounded-2xl font-bold mt-4">
+            Order Now
+          </button>
+        </div>
+        <div className="bg-black w-28 h-52 pl-3 rounded-2xl"></div>
       </div>
-      <div class="relative grid min-h-screen grid-cols-[1fr_2.5rem_auto_2.5rem_1fr] grid-rows-[1fr_1px_auto_1px_1fr] bg-white [--pattern-fg:var(--color-gray-950)]/5 dark:bg-gray-950 dark:[--pattern-fg:var(--color-white)]/10">
-        <div class="col-start-3 row-start-3 flex max-w-lg flex-col bg-gray-100 p-2 dark:bg-white/10">
-          <div class="rounded-xl bg-white p-10 text-sm/7 text-gray-700 dark:bg-gray-950 dark:text-gray-300">
-            <img
-              src="/img/logo.svg"
-              class="mb-11.5 h-6 dark:hidden"
-              alt="tivan-cheese"
-            />
-            <img
-              src="/img/logo-dark.svg"
-              class="mb-11.5 h-6 not-dark:hidden"
-              alt="tivan-cheese"
-            />
-            <div class="space-y-6">
-              <p className="text-md">
-                At Tivan, our cheese is more than a product—it’s a promise of
-                authenticity, quality, and tradition. Made from pure milk, aged
-                with care, and free from industrial additives, our cheese offers
-                both exceptional taste and trustworthy nutrition.
-              </p>
-              <ul class="space-y-3">
-                <li class="flex">
-                  <svg
-                    class="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      class="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-md underline">
-                      Crafted from Pure
-                    </p>
-                    <p className="font-bold ">
-                      Whole Milk Our cheese begins with fresh, full-fat milk
-                      sourced from ethically raised, pasture-fed cows. No
-                      powdered milk, no substitutes—just nature’s original
-                      ingredients.
-                    </p>
-                  </div>
-                </li>
-                <li class="flex">
-                  <svg
-                    class="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      class="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-md underline">
-                      Free from Artificial Additives
-                    </p>
-                    <p className="font-bold ">
-                      We never use artificial colors, preservatives,
-                      emulsifiers, or stabilizers. Our cheese is clean-label,
-                      meaning you get only the essentials: milk, cultures,
-                      rennet, and salt.
-                    </p>
-                  </div>
-                </li>
-                <li class="flex">
-                  <svg
-                    class="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      class="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-md underline">
-                      Controlled Aging, Lab-Tested Quality
-                    </p>
-                    <p className="font-bold ">
-                      Every wheel and block undergoes controlled aging to
-                      develop natural flavor profiles—ranging from soft and
-                      creamy to sharp and robust. We test rigorously for:
-                    </p>
-                    <ul className="list-disc">
-                      <li className="">Microbial safety</li>
-                      <li className="">Moisture balance</li>
-                      <li className="">Protein and fat consistency</li>
-                    </ul>
-                  </div>
-                </li>
-                <li class="flex">
-                  <svg
-                    class="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      class="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-md underline">
-                      Nutrient-Dense and Functional
-                    </p>
-                    <p className="font-bold ">Rich In</p>
-                    <ul className="list-disc">
-                      <li className="">Calcium and Phosphorus (bone health)</li>
-                      <li className="">
-                        Bioavailable Protein (muscle maintenance)
-                      </li>
-                      <li className="">
-                        Vitamin B12 and A (nerve and vision support)
-                      </li>
-                      <li className="">Healthy fats (energy and satiety)</li>
-                    </ul>
-                    <p className="">
-                      Natural cheese is not just a topping—it’s a functional
-                      food for balanced diets.
-                    </p>
-                  </div>
-                </li>
-                <li class="flex">
-                  <svg
-                    class="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      class="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-md underline">
-                      Responsible Sourcing & Ethical Production
-                    </p>
-                    <p className="font-bold">
-                      Our dairy partners adhere to sustainable farming
-                      practices, animal welfare standards, and environmentally
-                      friendly production methods.
-                    </p>
-                  </div>
-                </li>
 
-                <li class="flex">
-                  <svg
-                    class="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle cx="11" cy="11" r="11" class="fill-sky-400/25" />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      class="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      class="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-md underline">
-                      Eco-Conscious Packaging
-                    </p>
-                    <p className="font-bold ">
-                      We use recyclable and food-safe packaging that protects
-                      freshness without compromising sustainability.
-                    </p>
-                  </div>
-                </li>
-              </ul>
-
-              <h1 className="font-bold">Experience the Art of Real Cheese</h1>
-              <p>
-                Upgrade your meals with a touch of heritage and wholesomeness.
-                Our natural cheese delivers exceptional flavor, honest
-                nutrition, and the quality your family deserves. Shop now and
-                rediscover what real cheese should taste like.
-              </p>
+      <div className="mt-16">
+        <h1 className="text-center font-bold text-3xl">
+          Best Sales of beauty products
+        </h1>
+        <p className="text-center text-sm px-10 my-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolor
+          soluta dicta reiciendis possimus asperiores.
+        </p>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-10 mt-10">
+        {honeyDetails.map((honey, index) => (
+          <div key={index} className="bg-white rounded-xl shadow-md p-4">
+            <div className="w-full h-48 rounded-xl bg-amber-300 flex items-center justify-center">
+              {/* Ideally use <img src={honey.image} /> */}
+              <img
+                src={honey.iamge}
+                alt="Honey"
+                className="w-full h-full object-cover rounded-xl"
+              />
             </div>
-            <hr class="my-6 w-full border-(--pattern-fg)" />
-
-            <div class="font-semibold ">
-              <a
-                href=""
-                class="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 dark:text-white mx-4"
-              >
-                Make An Order &rarr;
-              </a>
-              <a
-                href=""
-                class="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 dark:text-white"
-              >
-                Contact Us &rarr;
-              </a>
+            <div className="mt-6">
+              <div className="flex flex-row">
+                <FaStar className="text-orange-500" />
+                <FaStar className="text-orange-500" />
+                <FaStar className="text-orange-500" />
+                <FaStar className="text-orange-500" />
+                <FaStarHalfAlt className="text-orange-500" />
+              </div>
+              <h1 className="font-bold my-2 capitalize">{honey.name}</h1>
+              <h1 className="text-orange-500 uppercase">{honey.price}</h1>
             </div>
           </div>
-        </div>
-        <div class="relative -right-px col-start-2 row-span-full row-start-1 border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed"></div>
-        <div class="relative -left-px col-start-4 row-span-full row-start-1 border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed"></div>
-        <div class="relative -bottom-px col-span-full col-start-1 row-start-2 h-px bg-(--pattern-fg)"></div>
-        <div class="relative -top-px col-span-full col-start-1 row-start-4 h-px bg-(--pattern-fg)"></div>
+        ))}
       </div>
     </div>
   );

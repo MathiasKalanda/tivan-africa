@@ -2,7 +2,7 @@ import React from "react";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
 
-const CowGheeMoree = () => {
+const HoneyDetails = () => {
   const honeyDetails = [
     {
       name: "product Name Moistured",
@@ -82,4 +82,4 @@ const CowGheeMoree = () => {
   );
 };
 
-export default CowGheeMoree;
+export default HoneyDetails;

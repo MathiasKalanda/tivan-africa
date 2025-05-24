@@ -11,23 +11,23 @@ const DetailedProducts = () => {
     },
     {
       name: "Noushrized Butter",
-      image: "/honeyinto.jpg",
+      image: "/flyers/butter.jpg",
       slug: "natural-butter",
     },
     {
       name: "Noushrized Cheese",
-      image: "/honeyinto.jpg",
+      image: "/flyers/cheese.jpg",
       slug: "natural-cheese",
     },
     {
-      name: "Organic Oil",
-      image: "/honeyinto.jpg",
-      slug: "natural-tivanoil",
+      name: "Natural CowGhee",
+      image: "/flyers/ghee.jpg",
+      slug: "natural-cowghee",
     },
     {
-      name: "Natural CowGhee",
-      image: "/honeyinto.jpg",
-      slug: "natural-cowghee",
+      name: "Castor Oil",
+      image: "/flyers/castoroil.jpg",
+      slug: "natural-tivanoil",
     },
   ];
   return (
@@ -41,7 +41,10 @@ const DetailedProducts = () => {
           {products.map((product, index) => (
             <div className="w-full my-6" key={index}>
               {" "}
-              <div className="bg-slate-600  h-64 rounded-3xl flex flex-col justify-end bg-[url('/honeyinto.jpg')] bg-cover bg-center">
+              <div
+                className="bg-slate-600  h-64 rounded-3xl flex flex-col justify-end  bg-cover bg-center"
+                style={{ backgroundImage: `url(${product.image})` }}
+              >
                 <div className="bg-black/45 flex flex-row justify-start items-center rounded-b-3xl px-6 py-5 gap-2">
                   <div className="bg-orange-600 w-4 h-10 rounded-l-lg"></div>
                   <h1 className="text-white text-xl leading-5 font-bold">

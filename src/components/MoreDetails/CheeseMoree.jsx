@@ -58,7 +58,7 @@ const CheeseMoree = () => {
           soluta dicta reiciendis possimus asperiores.
         </p>
       </div>
-      <div className="grid grid-cols-2 place-items-center">
+      <div className="grid grid-cols-2 md:grid-cols-4 place-items-center">
         {" "}
         {honeyDetails.map((honey, index) => (
           <div className="" key={index}>
@@ -66,7 +66,7 @@ const CheeseMoree = () => {
               <img
                 src={honey.iamge}
                 alt=""
-                className="w-44 sm:w-32 md:w-44 h-36 rounded-xl"
+                className="w-32 sm:w-32 md:w-44 h-36 rounded-xl"
               />
               <h1 className="text-center font-bold uppercase my-2 underline">
                 {honey.name}

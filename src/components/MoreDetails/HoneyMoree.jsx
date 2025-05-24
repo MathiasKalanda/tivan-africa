@@ -1,3 +1,4 @@
+import { image } from "framer-motion/client";
 import React from "react";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
@@ -7,30 +8,30 @@ const HoneyMoree = () => {
     {
       name: "product Name Moistured",
       price: "ugx 15000",
-      iamge: "/honeyinto.jpg",
+      image: "/honeyinto.jpg",
     },
     {
       name: "product Name Moistured",
       price: "ugx 15000",
-      iamge: "/honeyinto.jpg",
+      image: "/honeyinto.jpg",
     },
     {
       name: "product Name Moistured",
       price: "ugx 15000",
-      iamge: "/honeyinto.jpg",
+      image: "/honeyinto.jpg",
     },
     {
       name: "product Name Moistured",
       price: "ugx 15000",
-      iamge: "/honeyinto.jpg",
+      image: "/honeyinto.jpg",
     },
   ];
   return (
     <div className="mt-16">
       <div className="bg-blue-400 h-64 flex flex-row justify-start items-center m-3 rounded-2xl">
-        <div className="w-3/4 pr-6">
+        <div className="w-3/4 pr-6 ">
           {" "}
-          <h1 className="ml-6 font-bold text-3xl">
+          <h1 className="ml-6 font-bold md:text-3xl text-xl ">
             Make Your Diet Shine Naturally With Our Products
           </h1>
           <p className="ml-6 mt-2">
@@ -59,7 +60,7 @@ const HoneyMoree = () => {
             <div className="w-full h-48 rounded-xl bg-amber-300 flex items-center justify-center">
               {/* Ideally use <img src={honey.image} /> */}
               <img
-                src={honey.iamge}
+                src={honey.image}
                 alt="Honey"
                 className="w-full h-full object-cover rounded-xl"
               />

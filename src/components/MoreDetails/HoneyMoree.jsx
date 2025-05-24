@@ -28,7 +28,7 @@ const HoneyMoree = () => {
   ];
   return (
     <div className="mt-16">
-      <div className="bg-blue-400 h-64 flex flex-row justify-start items-center m-3 rounded-2xl">
+      <div className="bg-blue-400 h-64 flex flex-row justify-start items-center  md:m-3 rounded-2xl">
         <div className="w-3/4 pr-6 ">
           {" "}
           <h1 className="ml-6 font-bold md:text-3xl text-xl ">

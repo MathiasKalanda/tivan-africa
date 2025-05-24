@@ -5,24 +5,27 @@ import { FaStarHalfAlt } from "react-icons/fa";
 const CowGheeMoree = () => {
   const honeyDetails = [
     {
-      name: "product Name Moistured",
+      name: "Tasty Ghee Natural",
       price: "ugx 15000",
-      iamge: "/honeyinto.jpg",
+      quantity: "250g",
+      iamge: "/flyers/crsipyghee.jpg",
     },
     {
-      name: "product Name Moistured",
+      name: "Tasty Ghee Natural",
       price: "ugx 15000",
-      iamge: "/honeyinto.jpg",
+      quantity: "500g",
+      iamge: "/flyers/flavoured.jpg",
     },
     {
-      name: "product Name Moistured",
-      price: "ugx 15000",
-      iamge: "/honeyinto.jpg",
+      name: "Tasty Ghee Natural",
+      quantity: "1kg",
+      iamge: "/flyers/tastyghee.jpg",
     },
     {
-      name: "product Name Moistured",
+      name: "Tasty Ghee Natural",
       price: "ugx 15000",
-      iamge: "/honeyinto.jpg",
+      quantity: "500g",
+      iamge: "/flyers/crsipyghee.jpg",
     },
   ];
   return (
@@ -72,8 +75,17 @@ const CowGheeMoree = () => {
                 <FaStar className="text-orange-500" />
                 <FaStarHalfAlt className="text-orange-500" />
               </div>
-              <h1 className="font-bold my-2 capitalize">{honey.name}</h1>
-              <h1 className="text-orange-500 uppercase">{honey.price}</h1>
+              <div className="flex flex-row justify-between items-center">
+                {" "}
+                <h1 className="font-bold my-2 uppercase">{honey.name}</h1>
+                <h1 className="font-bold ">{honey.quantity}</h1>
+              </div>
+              <div className="">
+                <h1 className="text-orange-500 uppercase">{honey.price}</h1>
+                <button className="bg-black text-white text-center px-4 rounded-xl mt-2">
+                  Order
+                </button>
+              </div>
             </div>
           </div>
         ))}

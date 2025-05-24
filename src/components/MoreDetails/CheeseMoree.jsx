@@ -7,21 +7,25 @@ const CheeseMoree = () => {
     {
       name: "product Name Moistured",
       price: "ugx 15000",
+      quantity: "500g",
       iamge: "/honeyinto.jpg",
     },
     {
       name: "product Name Moistured",
       price: "ugx 15000",
+      quantity: "500g",
       iamge: "/honeyinto.jpg",
     },
     {
       name: "product Name Moistured",
       price: "ugx 15000",
+      quantity: "500g",
       iamge: "/honeyinto.jpg",
     },
     {
       name: "product Name Moistured",
       price: "ugx 15000",
+      quantity: "500g",
       iamge: "/honeyinto.jpg",
     },
   ];
@@ -72,8 +76,17 @@ const CheeseMoree = () => {
                 <FaStar className="text-orange-500" />
                 <FaStarHalfAlt className="text-orange-500" />
               </div>
-              <h1 className="font-bold my-2 capitalize">{honey.name}</h1>
-              <h1 className="text-orange-500 uppercase">{honey.price}</h1>
+              <div className="flex flex-row justify-between items-center">
+                {" "}
+                <h1 className="font-bold my-2 uppercase">{honey.name}</h1>
+                <h1 className="font-bold ">{honey.quantity}</h1>
+              </div>
+              <div className="">
+                <h1 className="text-orange-500 uppercase">{honey.price}</h1>
+                <button className="bg-black text-white text-center px-4 rounded-xl mt-2">
+                  Order
+                </button>
+              </div>
             </div>
           </div>
         ))}

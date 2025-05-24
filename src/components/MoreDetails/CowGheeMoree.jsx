@@ -48,10 +48,10 @@ const CowGheeMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Made from A2 Cow Milk
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       We use pure, full-cream milk from grass-fed cows, rich in
                       A2 beta-casein protein. This results in ghee that is easy
                       to digest, nutrient-dense, and naturally flavorful.
@@ -78,10 +78,10 @@ const CowGheeMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       🐝 Traditional Bilona Method
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       Crafted using the ancient bilona churning process, our
                       ghee is slowly simmered from cultured curd—not cream—to
                       retain its aromatic richness and enhance bioavailability
@@ -109,10 +109,10 @@ const CowGheeMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Zero Additives, Zero Preservatives
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       No synthetic colors, no artificial flavors, no
                       preservatives. Our ghee is pure fat with no hidden
                       ingredients—just nature in its most refined form.
@@ -139,10 +139,10 @@ const CowGheeMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Packed with Nutrients & Functional Benefits
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       Natural cow ghee is a powerhouse of:
                     </p>
                     <ul className="list-disc">
@@ -180,10 +180,10 @@ const CowGheeMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Lab-Tested for Purity and Potency
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       Every batch undergoes stringent quality checks to ensure:
                     </p>
                     <ul className="list-disc">
@@ -215,10 +215,10 @@ const CowGheeMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Ethical & Sustainable Production
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       Our dairy operations are free from hormones and
                       antibiotics, with cows raised in a stress-free, natural
                       environment. Our packaging is recyclable and BPA-free,

@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Oil = () => {
   return (
     <div
@@ -16,7 +15,7 @@ const Oil = () => {
       <div className="flex flex-col justify-center items-center ">
         {" "}
         <h1 className=" text-3xl md:text-4xl mt-24 font-bold uppercase text-transparent bg-gradient-to-r from-gray-800 via-black/30  to-black  bg-clip-text">
-          Tivan Oil
+          Castor Oil
         </h1>
         <p className="pt-2 font-bold mb-2 text-amber-700 ">
           Natural and Flavoured Oil
@@ -42,7 +41,6 @@ const Oil = () => {
           </button>
         </div>
       </div>
-     
     </div>
   );
 };

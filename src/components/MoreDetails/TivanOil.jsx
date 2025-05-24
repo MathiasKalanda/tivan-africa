@@ -53,10 +53,10 @@ const TivanOil = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p className="ml-3 font-bold text-green-900 text-lg underline">
+                    <p className="ml-3 font-bold text-green-900 text-md underline">
                       Cold-Pressed & Hexane-Free
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       We extract our oil using cold-press technology—no heat, no
                       solvents, and no hexane. This preserves the oil’s natural
                       nutrients, enzymes, and fatty acids, ensuring maximum
@@ -89,7 +89,7 @@ const TivanOil = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p className="ml-3 font-bold text-green-900 text-lg underline">
+                    <p className="ml-3 font-bold text-green-900 text-md underline">
                       100% Pure & Unrefined
                     </p>
                     <p className="font-bold ml-3">Our oil is</p>
@@ -132,10 +132,10 @@ const TivanOil = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p className="ml-3 font-bold text-green-900 text-lg underline">
+                    <p className="ml-3 font-bold text-green-900 text-md underline">
                       Lab-Tested for Quality & Authenticity
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       Each batch is independently tested to ensure it’s free
                       from chemicals, antibiotics, and artificial sugars. You
                       get exactly what nature intended—nothing more, nothing
@@ -168,10 +168,10 @@ const TivanOil = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p className="ml-3 font-bold text-green-900 text-lg underline">
+                    <p className="ml-3 font-bold text-green-900 text-md underline">
                       Rich in Natural Health Benefits
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       Packed with antioxidants, antibacterial compounds, and
                       prebiotics, our honey isn’t just sweet—it’s functional
                       food for immunity, digestion, and wellness.
@@ -203,7 +203,7 @@ const TivanOil = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p className="ml-3 font-bold text-green-900 text-lg underline">
+                    <p className="ml-3 font-bold text-green-900 text-md underline">
                       Traceable & Transparent
                     </p>
                     <p className="font-bold ml-3">

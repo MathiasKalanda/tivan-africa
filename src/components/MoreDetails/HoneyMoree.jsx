@@ -49,8 +49,8 @@ const HoneyMoree = () => {
                     <p class="ml-3 font-bold text-green-900 text-md md:text-lg  underline">
                       100% Pure & Unprocessed
                     </p>
-                    <p className="font-bold">
-                      Our honey comes straight from the hive to the jar—no
+                    <p className="font-bold ">
+                      Our honey comes straight from the hive to the jar no
                       heating, no additives, and no dilution. This preserves all
                       the natural enzymes, antioxidants, and nutrients your body
                       needs.
@@ -78,7 +78,7 @@ const HoneyMoree = () => {
                   </svg>
                   <div className="flex flex-col">
                     <p class="ml-3 font-bold text-green-900 text-md md:text-lg underline">
-                      🐝 Sourced Directly from Local Beekeepers
+                      Sourced Directly from Local Beekeepers
                     </p>
                     <p className="font-bold ml-3">
                       We partner with trusted local beekeepers who practice

@@ -47,10 +47,10 @@ const CheeseMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Crafted from Pure
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       Whole Milk Our cheese begins with fresh, full-fat milk
                       sourced from ethically raised, pasture-fed cows. No
                       powdered milk, no substitutes—just nature’s original
@@ -78,10 +78,10 @@ const CheeseMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Free from Artificial Additives
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       We never use artificial colors, preservatives,
                       emulsifiers, or stabilizers. Our cheese is clean-label,
                       meaning you get only the essentials: milk, cultures,
@@ -109,10 +109,10 @@ const CheeseMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Controlled Aging, Lab-Tested Quality
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       Every wheel and block undergoes controlled aging to
                       develop natural flavor profiles—ranging from soft and
                       creamy to sharp and robust. We test rigorously for:
@@ -144,10 +144,10 @@ const CheeseMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Nutrient-Dense and Functional
                     </p>
-                    <p className="font-bold ml-3">Rich In</p>
+                    <p className="font-bold ">Rich In</p>
                     <ul className="list-disc">
                       <li className="">Calcium and Phosphorus (bone health)</li>
                       <li className="">
@@ -184,10 +184,10 @@ const CheeseMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Responsible Sourcing & Ethical Production
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold">
                       Our dairy partners adhere to sustainable farming
                       practices, animal welfare standards, and environmentally
                       friendly production methods.
@@ -215,10 +215,10 @@ const CheeseMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Eco-Conscious Packaging
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       We use recyclable and food-safe packaging that protects
                       freshness without compromising sustainability.
                     </p>

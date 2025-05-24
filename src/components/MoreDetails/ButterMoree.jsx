@@ -46,10 +46,10 @@ const ButterMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       100% Natural & Creamy
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       Made from fresh, locally sourced cream, our butter is
                       churned traditionally to preserve its full flavor, silky
                       texture, and nutritional value. Absolutely no
@@ -77,10 +77,10 @@ const ButterMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       From Grass-Fed Cows
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       We never use synthetic hormones or growth enhancers. Our
                       butter is pure dairy fat, rich in nutrients and completely
                       free from industrial processing.
@@ -107,10 +107,10 @@ const ButterMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       No Additives or Hormones
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       We never use synthetic hormones or growth enhancers. Our
                       butter is pure dairy fat, rich in nutrients and completely
                       free from industrial processing.
@@ -137,10 +137,10 @@ const ButterMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Rich in Nutrients
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       Natural butter is an excellent source of:
                     </p>
                     <ul className="list-disc">
@@ -172,10 +172,10 @@ const ButterMoree = () => {
                     />
                   </svg>
                   <div className="flex flex-col">
-                    <p class="ml-3 font-bold text-green-900 text-lg underline">
+                    <p class="ml-3 font-bold text-green-900 text-md underline">
                       Sustainably Produced & Packaged
                     </p>
-                    <p className="font-bold ml-3">
+                    <p className="font-bold ">
                       Our packaging is eco-conscious and fully
                       recyclable—because what’s good for your plate should also
                       be good for the planet.

@@ -45,7 +45,7 @@ const HoneyMoree = () => {
           soluta dicta reiciendis possimus asperiores.
         </p>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-2 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10  mt-10 md:px-8 px-2">
         {honeyDetails.map((honey, index) => (
           <div key={index} className="bg-white rounded-xl shadow-md p-4">
             <div className="w-full h-48 rounded-xl bg-amber-300 flex items-center justify-center">

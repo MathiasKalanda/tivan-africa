@@ -33,19 +33,6 @@ const CheeseMoree = () => {
   return (
     <div className="mt-16">
       <div className="bg-blue-400 h-64 flex flex-row justify-end items-center  md:m-3 rounded-2xl bg-[url('/flyers/1000728711.jpg')] bg-cover bg-center">
-        {/* <div className="w-3/4 pr-6 ">
-          {" "}
-          <h1 className="ml-6 font-bold md:text-3xl text-xl ">
-            Make Your Diet Shine Naturally With Our Products
-          </h1>
-          <p className="ml-6 mt-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
-            eaque sint libero?
-          </p>
-          <button className="ml-6 bg-orange-600 px-3 py-2 rounded-2xl font-bold mt-4">
-            Order Now
-          </button>
-        </div> */}
         <div className="bg-black w-28 h-52 pl-3 rounded-2xl bg-[url('/flyers/1000728711.jpg')] bg-cover bg-center"></div>
       </div>
 
@@ -76,7 +63,7 @@ const CheeseMoree = () => {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 px-10 mt-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:px-8 px-2 mt-10">
         {honeyDetails.map((honey, index) => (
           <div key={index} className="bg-white rounded-xl shadow-md p-4">
             <div className="w-full h-48 rounded-xl bg-amber-300 flex items-center justify-center">

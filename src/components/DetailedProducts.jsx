@@ -53,25 +53,24 @@ const DetailedProducts = () => {
                 </div>
               </div>
               <div className="flex flex-row my-5 gap-5 justify-end">
+                <button className="flex flex-row justify-center items-center gap-3  px-2 py-1 rounded-4xl font-bold border-1">
+                  Learn More
+                  <FaArrowAltCircleRight
+                    className="moving-arrow text-black"
+                    size="24"
+                  />
+                </button>
                 <Link
                   to="/products/$slug"
                   params={{ slug: product.slug }}
-                  className="flex flex-row justify-center items-center gap-3 border-1 px-4 py-1 rounded-4xl font-bold"
+                  className="flex flex-row justify-center items-center gap-3 border-1 px-4 py-1 rounded-4xl  bg-orange-600 font-bold text-white"
                 >
-                  Learn More
+                  Order Now
                   <FaArrowAltCircleRight
                     className="moving-arrow text-lime-950"
                     size="24"
                   />
                 </Link>
-                <button className="flex flex-row justify-center items-center gap-3  px-2 py-1 rounded-4xl font-bold bg-orange-600 text-white">
-                  Order Now
-                  <FaArrowAltCircleRight
-                    className="moving-arrow text-white"
-                    size="24"
-                  />
-                </button>
-                <button className=""></button>
               </div>
             </div>
           ))}

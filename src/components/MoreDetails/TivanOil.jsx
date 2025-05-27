@@ -1,247 +1,87 @@
+import { image } from "framer-motion/client";
 import React from "react";
+import { FaStar } from "react-icons/fa";
+import { FaStarHalfAlt } from "react-icons/fa";
+import { useCart } from "../../context/CartContext";
 
 const TivanOil = () => {
+  const { addToCart } = useCart();
+  const honeyDetails = [
+    {
+      name: "Oil 1 ",
+      price: 500,
+      quantity: "500ml",
+      image: "/oil3.jpg",
+    },
+    {
+      name: "Oil 2 ",
+      price: 600,
+      quantity: "100ml",
+      image: "/oil6.jpg",
+    },
+    {
+      name: "Oil 3 ",
+      price: 300,
+      quantity: "250ml",
+      image: "/oil7.jpg",
+    },
+    {
+      name: "Oil 4 ",
+      price: 900,
+      quantity: "200ml",
+      image: "/oilrefined.jpg",
+    },
+  ];
   return (
-    <div className="mt-6">
-      <div className="">
-        <img src="/flyers\1000728709.jpg" alt="" />
+    <div className="mt-16">
+      <div className="bg-blue-400 h-64 flex flex-row justify-end items-center  md:m-3 rounded-2xl bg-[url('/flyers/1000728709.jpg')] bg-cover bg-center">
+        <div className="bg-black w-28 h-52 pl-3 rounded-2xl bg-[url('/flyers/1000728709.jpg')] bg-cover bg-center"></div>
       </div>
-      <div className="relative grid min-h-screen grid-cols-[1fr_2.5rem_auto_2.5rem_1fr] grid-rows-[1fr_1px_auto_1px_1fr] bg-white [--pattern-fg:var(--color-gray-950)]/5 dark:bg-gray-950 dark:[--pattern-fg:var(--color-white)]/10">
-        <div className="col-start-3 row-start-3 flex max-w-lg flex-col bg-gray-100 p-2 dark:bg-white/10">
-          <div className="rounded-xl bg-white p-10 text-sm/7 text-gray-700 dark:bg-gray-950 dark:text-gray-300">
-            <img
-              src="/img/logo.svg"
-              className="mb-11.5 h-6 dark:hidden"
-              alt="tivan-honey"
-            />
-            <img
-              src="/img/logo-dark.svg"
-              className="mb-11.5 h-6 not-dark:hidden"
-              alt="tivan-honey"
-            />
-            <div className="space-y-6">
-              <p className="text-md">
-                Our castor oil is a testament to purity, versatility, and
-                wellness. Sourced from premium-grade castor seeds and
-                cold-pressed for maximum potency, At Tivan delivers 100% pure,
-                chemical-free castor oil you can trust for both personal care
-                and therapeutic use.
-              </p>
-              <ul className="space-y-3">
-                <li className="flex">
-                  <svg
-                    className="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="11"
-                      className="fill-sky-400/25"
-                    />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      className="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      className="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p className="ml-3 font-bold text-green-900 text-md underline">
-                      Cold-Pressed & Hexane-Free
-                    </p>
-                    <p className="font-bold ">
-                      We extract our oil using cold-press technology—no heat, no
-                      solvents, and no hexane. This preserves the oil’s natural
-                      nutrients, enzymes, and fatty acids, ensuring maximum
-                      efficacy and safety.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex">
-                  <svg
-                    className="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="11"
-                      className="fill-sky-400/25"
-                    />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      className="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      className="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p className="ml-3 font-bold text-green-900 text-md underline">
-                      100% Pure & Unrefined
-                    </p>
-                    <p className="font-bold ml-3">Our oil is</p>
-                    <ul className="list-disc">
-                      <li className="">Unbleached</li>
-                      <li className="">Undeodorized</li>
-                      <li className="">
-                        Free from synthetic additives, parabens, and mineral
-                        oils
-                      </li>
-                    </ul>
-                    <p className="">
-                      What you get is raw, unadulterated castor oil—as close to
-                      nature as possible.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex">
-                  <svg
-                    className="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="11"
-                      className="fill-sky-400/25"
-                    />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      className="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      className="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p className="ml-3 font-bold text-green-900 text-md underline">
-                      Lab-Tested for Quality & Authenticity
-                    </p>
-                    <p className="font-bold ">
-                      Each batch is independently tested to ensure it’s free
-                      from chemicals, antibiotics, and artificial sugars. You
-                      get exactly what nature intended—nothing more, nothing
-                      less.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex">
-                  <svg
-                    className="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="11"
-                      className="fill-sky-400/25"
-                    />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      className="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      className="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p className="ml-3 font-bold text-green-900 text-md underline">
-                      Rich in Natural Health Benefits
-                    </p>
-                    <p className="font-bold ">
-                      Packed with antioxidants, antibacterial compounds, and
-                      prebiotics, our honey isn’t just sweet—it’s functional
-                      food for immunity, digestion, and wellness.
-                    </p>
-                  </div>
-                </li>
-                <li className="flex">
-                  <svg
-                    className="h-[1lh] w-5.5 shrink-0"
-                    viewBox="0 0 22 22"
-                    fill="none"
-                    stroke-linecap="square"
-                  >
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="11"
-                      className="fill-sky-400/25"
-                    />
-                    <circle
-                      cx="11"
-                      cy="11"
-                      r="10.5"
-                      className="stroke-sky-400/25"
-                    />
-                    <path
-                      d="M8 11.5L10.5 14L14 8"
-                      className="stroke-sky-800 dark:stroke-sky-300"
-                    />
-                  </svg>
-                  <div className="flex flex-col">
-                    <p className="ml-3 font-bold text-green-900 text-md underline">
-                      Traceable & Transparent
-                    </p>
-                    <p className="font-bold ml-3">
-                      From hive location to harvest date, our labeling tells the
-                      full story. We believe in total transparency, so you can
-                      trust what you consume.
-                    </p>
-                  </div>
-                </li>
-              </ul>
-              <p>
-                Experience the unmatched goodness of nature in every spoonful.
-                Choose our natural honey—pure, powerful, and made with purpose.
-                Buy today and make health a habit the natural way. 🍯
-              </p>
-            </div>
-            <hr className="my-6 w-full border-(--pattern-fg)" />
 
-            <div className="font-semibold ">
-              <a
-                href=""
-                className="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 dark:text-white mx-4"
-              >
-                Make An Order &rarr;
-              </a>
-              <a
-                href=""
-                className="text-gray-950 underline decoration-sky-400 underline-offset-3 hover:decoration-2 dark:text-white"
-              >
-                Contact Us &rarr;
-              </a>
+      <div className="mt-16">
+        <h1 className="text-center font-bold text-3xl capitalize">
+          Categories for our Castor Oil
+        </h1>
+        <p className="text-center text-sm px-10 my-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolor
+          soluta dicta reiciendis possimus asperiores.
+        </p>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10  mt-10 md:px-8 px-2">
+        {honeyDetails.map((honey, index) => (
+          <div key={index} className="bg-white rounded-xl shadow-md p-4">
+            <div className="w-full h-48 rounded-xl bg-amber-300 flex items-center justify-center">
+              <img
+                src={honey.image}
+                alt="Honey"
+                className="w-full h-full object-cover rounded-xl"
+              />
+            </div>
+            <div className="mt-6">
+              <div className="flex flex-row">
+                <FaStar className="text-orange-500" />
+                <FaStar className="text-orange-500" />
+                <FaStar className="text-orange-500" />
+                <FaStar className="text-orange-500" />
+                <FaStarHalfAlt className="text-orange-500" />
+              </div>
+              <div className="flex flex-row justify-between items-center">
+                {" "}
+                <h1 className="font-bold my-2 uppercase">{honey.name}</h1>
+                <h1 className="font-bold ">{honey.quantity}</h1>
+              </div>
+              <div className="">
+                <h1 className="text-orange-500 uppercase">{honey.price}</h1>
+                <button
+                  className="bg-black text-white text-center px-4 rounded-xl mt-2"
+                  onClick={() => addToCart(honey)}
+                >
+                  Order
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="relative -right-px col-start-2 row-span-full row-start-1 border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed"></div>
-        <div className="relative -left-px col-start-4 row-span-full row-start-1 border-x border-x-(--pattern-fg) bg-[image:repeating-linear-gradient(315deg,_var(--pattern-fg)_0,_var(--pattern-fg)_1px,_transparent_0,_transparent_50%)] bg-[size:10px_10px] bg-fixed"></div>
-        <div className="relative -bottom-px col-span-full col-start-1 row-start-2 h-px bg-(--pattern-fg)"></div>
-        <div className="relative -top-px col-span-full col-start-1 row-start-4 h-px bg-(--pattern-fg)"></div>
+        ))}
       </div>
     </div>
   );

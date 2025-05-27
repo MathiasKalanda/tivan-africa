@@ -1,4 +1,3 @@
-import { image } from "framer-motion/client";
 import React from "react";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";

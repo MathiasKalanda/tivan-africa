@@ -16,6 +16,7 @@ import { Route as ContactusImport } from './routes/contactus'
 import { Route as AboutusImport } from './routes/aboutus'
 import { Route as IndexImport } from './routes/index'
 import { Route as ProductsSlugImport } from './routes/products/$slug'
+import { Route as ProductDetailsSlugImport } from './routes/productDetails/$slug'
 
 // Create/Update Routes
 
@@ -46,6 +47,12 @@ const IndexRoute = IndexImport.update({
 const ProductsSlugRoute = ProductsSlugImport.update({
   id: '/products/$slug',
   path: '/products/$slug',
+  getParentRoute: () => rootRoute,
+} as any)
+
+const ProductDetailsSlugRoute = ProductDetailsSlugImport.update({
+  id: '/productDetails/$slug',
+  path: '/productDetails/$slug',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -81,6 +88,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ProductPageImport
       parentRoute: typeof rootRoute
     }
+    '/productDetails/$slug': {
+      id: '/productDetails/$slug'
+      path: '/productDetails/$slug'
+      fullPath: '/productDetails/$slug'
+      preLoaderRoute: typeof ProductDetailsSlugImport
+      parentRoute: typeof rootRoute
+    }
     '/products/$slug': {
       id: '/products/$slug'
       path: '/products/$slug'
@@ -98,6 +112,7 @@ export interface FileRoutesByFullPath {
   '/aboutus': typeof AboutusRoute
   '/contactus': typeof ContactusRoute
   '/productPage': typeof ProductPageRoute
+  '/productDetails/$slug': typeof ProductDetailsSlugRoute
   '/products/$slug': typeof ProductsSlugRoute
 }
 
@@ -106,6 +121,7 @@ export interface FileRoutesByTo {
   '/aboutus': typeof AboutusRoute
   '/contactus': typeof ContactusRoute
   '/productPage': typeof ProductPageRoute
+  '/productDetails/$slug': typeof ProductDetailsSlugRoute
   '/products/$slug': typeof ProductsSlugRoute
 }
 
@@ -115,6 +131,7 @@ export interface FileRoutesById {
   '/aboutus': typeof AboutusRoute
   '/contactus': typeof ContactusRoute
   '/productPage': typeof ProductPageRoute
+  '/productDetails/$slug': typeof ProductDetailsSlugRoute
   '/products/$slug': typeof ProductsSlugRoute
 }
 
@@ -125,15 +142,23 @@ export interface FileRouteTypes {
     | '/aboutus'
     | '/contactus'
     | '/productPage'
+    | '/productDetails/$slug'
     | '/products/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/aboutus' | '/contactus' | '/productPage' | '/products/$slug'
+  to:
+    | '/'
+    | '/aboutus'
+    | '/contactus'
+    | '/productPage'
+    | '/productDetails/$slug'
+    | '/products/$slug'
   id:
     | '__root__'
     | '/'
     | '/aboutus'
     | '/contactus'
     | '/productPage'
+    | '/productDetails/$slug'
     | '/products/$slug'
   fileRoutesById: FileRoutesById
 }
@@ -143,6 +168,7 @@ export interface RootRouteChildren {
   AboutusRoute: typeof AboutusRoute
   ContactusRoute: typeof ContactusRoute
   ProductPageRoute: typeof ProductPageRoute
+  ProductDetailsSlugRoute: typeof ProductDetailsSlugRoute
   ProductsSlugRoute: typeof ProductsSlugRoute
 }
 
@@ -151,6 +177,7 @@ const rootRouteChildren: RootRouteChildren = {
   AboutusRoute: AboutusRoute,
   ContactusRoute: ContactusRoute,
   ProductPageRoute: ProductPageRoute,
+  ProductDetailsSlugRoute: ProductDetailsSlugRoute,
   ProductsSlugRoute: ProductsSlugRoute,
 }
 
@@ -168,6 +195,7 @@ export const routeTree = rootRoute
         "/aboutus",
         "/contactus",
         "/productPage",
+        "/productDetails/$slug",
         "/products/$slug"
       ]
     },
@@ -182,6 +210,9 @@ export const routeTree = rootRoute
     },
     "/productPage": {
       "filePath": "productPage.jsx"
+    },
+    "/productDetails/$slug": {
+      "filePath": "productDetails/$slug.jsx"
     },
     "/products/$slug": {
       "filePath": "products/$slug.jsx"

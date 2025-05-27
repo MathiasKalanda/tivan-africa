@@ -5,7 +5,6 @@ import ButterMoree from "../../components/MoreDetails/ButterMoree";
 import CheeseMoree from "../../components/MoreDetails/CheeseMoree";
 import CowGheeMoree from "../../components/MoreDetails/CowGheeMoree";
 import TivanOil from "../../components/MoreDetails/TivanOil";
-// import TivanOil from "../../components/MoreDetails/TivanOil";
 
 const productComponentMap = {
   "natural-honey": HoneyMoree,

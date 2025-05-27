@@ -8,26 +8,31 @@ const DetailedProducts = () => {
       name: "Natural Honey",
       image: "/honeyinto.jpg",
       slug: "natural-honey",
+      detailSlug: "honey-details",
     },
     {
       name: "Noushrized Butter",
       image: "/flyers/butter.jpg",
       slug: "natural-butter",
+      detailSlug: "butter-details",
     },
     {
       name: "Noushrized Cheese",
       image: "/flyers/cheese.jpg",
       slug: "natural-cheese",
+      detailSlug: "cheese-details",
     },
     {
       name: "Natural CowGhee",
       image: "/flyers/ghee.jpg",
       slug: "natural-cowghee",
+      detailSlug: "ghee-details",
     },
     {
       name: "Castor Oil",
       image: "/flyers/castoroil.jpg",
       slug: "natural-tivanoil",
+      detailSlug: "oil-details",
     },
   ];
   return (
@@ -53,13 +58,17 @@ const DetailedProducts = () => {
                 </div>
               </div>
               <div className="flex flex-row my-5 gap-5 justify-end">
-                <button className="flex flex-row justify-center items-center gap-3  px-2 py-1 rounded-4xl font-bold border-1">
+                <Link
+                  to="/productDetails/$slug"
+                  params={{ slug: product.detailSlug }}
+                  className="flex flex-row justify-center items-center gap-3  px-2 py-1 rounded-4xl font-bold border-1"
+                >
                   Learn More
                   <FaArrowAltCircleRight
                     className="moving-arrow text-black"
                     size="24"
                   />
-                </button>
+                </Link>
                 <Link
                   to="/products/$slug"
                   params={{ slug: product.slug }}

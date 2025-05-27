@@ -7,25 +7,25 @@ const ButterMoree = () => {
   const { addToCart } = useCart();
   const honeyDetails = [
     {
-      name: "product Name Moistured",
+      name: "butter 1",
       price: 789,
       quantity: "1KG",
       image: "/honeyinto.jpg",
     },
     {
-      name: "product Name Moistured",
+      name: "butter 2",
       price: 650,
       quantity: "1KG",
       image: "/honeyinto.jpg",
     },
     {
-      name: "product Name Moistured",
+      name: "butter 3",
       price: 900,
       quantity: "1KG",
       image: "/honeyinto.jpg",
     },
     {
-      name: "product Name Moistured",
+      name: "butter 4",
       price: 7899,
       quantity: "1KG",
       image: "/honeyinto.jpg",

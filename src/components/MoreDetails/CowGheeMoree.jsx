@@ -7,25 +7,25 @@ const CowGheeMoree = () => {
   const { addToCart } = useCart();
   const honeyDetails = [
     {
-      name: "Tasty Ghee Natural",
+      name: "Ghee 1",
       price: 700,
       quantity: "250g",
       image: "/flyers/crsipyghee.jpg",
     },
     {
-      name: "Tasty Ghee Natural",
+      name: "Ghee 2",
       price: 788,
       quantity: "500g",
       image: "/flyers/flavoured.jpg",
     },
     {
-      name: "Tasty Ghee Natural",
+      name: "Ghee 3",
       price: 788,
       quantity: "1kg",
       image: "/flyers/tastyghee.jpg",
     },
     {
-      name: "Tasty Ghee Natural",
+      name: "Ghee 4",
       price: 543,
       quantity: "500g",
       image: "/flyers/crsipyghee.jpg",

@@ -2,30 +2,32 @@ import { image } from "framer-motion/client";
 import React from "react";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
+import { useCart } from "../../context/CartContext";
 
 const HoneyMoree = () => {
+  const { addToCart } = useCart();
   const honeyDetails = [
     {
       name: "Honey ",
-      price: "ugx 15000",
+      price: 500,
       quantity: "500g",
       image: "/honeyinto.jpg",
     },
     {
       name: "Honey ",
-      price: "ugx 30000",
+      price: 600,
       quantity: "1KG",
       image: "/honeyinto.jpg",
     },
     {
       name: "Honey ",
-      price: "ugx 15000",
+      price: 300,
       quantity: "250g",
       image: "/honeyinto.jpg",
     },
     {
       name: "Honey ",
-      price: "ugx 15000",
+      price: 900,
       quantity: "200g",
       image: "/honeyinto.jpg",
     },
@@ -70,7 +72,10 @@ const HoneyMoree = () => {
               </div>
               <div className="">
                 <h1 className="text-orange-500 uppercase">{honey.price}</h1>
-                <button className="bg-black text-white text-center px-4 rounded-xl mt-2">
+                <button
+                  className="bg-black text-white text-center px-4 rounded-xl mt-2"
+                  onClick={() => addToCart(honey)}
+                >
                   Order
                 </button>
               </div>

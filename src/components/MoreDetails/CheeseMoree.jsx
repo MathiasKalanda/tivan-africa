@@ -2,32 +2,34 @@ import { div } from "framer-motion/client";
 import React from "react";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
+import { useCart } from "../../context/CartContext";
 
 const CheeseMoree = () => {
+  const { addToCart } = useCart();
   const honeyDetails = [
     {
       name: "mozarrela cheese",
-      price: "ugx 15000",
+      price: 6554,
       quantity: "500g",
-      iamge: "/mozarella.jpg",
+      image: "/mozarella.jpg",
     },
     {
       name: "cheddar cheese",
-      price: "ugx 15000",
+      price: 643,
       quantity: "500g",
-      iamge: "/cheddar.jpg",
+      image: "/cheddar.jpg",
     },
     {
       name: "gouda cheese",
-      price: "ugx 15000",
+      price: 321,
       quantity: "500g",
-      iamge: "/gouda.jpg",
+      image: "/gouda.jpg",
     },
     {
       name: "paneer cheese",
-      price: "ugx 15000",
+      price: 790,
       quantity: "500g",
-      iamge: "/paneer.jpg",
+      image: "/paneer.jpg",
     },
   ];
   return (
@@ -51,7 +53,7 @@ const CheeseMoree = () => {
           <div className="" key={index}>
             <div className="my-5">
               <img
-                src={honey.iamge}
+                src={honey.image}
                 alt=""
                 className="w-40 sm:w-32 md:w-44 h-36 rounded-xl"
               />
@@ -69,7 +71,7 @@ const CheeseMoree = () => {
             <div className="w-full h-48 rounded-xl bg-amber-300 flex items-center justify-center">
               {/* Ideally use <img src={honey.image} /> */}
               <img
-                src={honey.iamge}
+                src={honey.image}
                 alt="Honey"
                 className="w-full h-full object-cover rounded-xl"
               />
@@ -89,7 +91,10 @@ const CheeseMoree = () => {
               </div>
               <div className="">
                 <h1 className="text-orange-500 uppercase">{honey.price}</h1>
-                <button className="bg-black text-white text-center px-4 rounded-xl mt-2">
+                <button
+                  className="bg-black text-white text-center px-4 rounded-xl mt-2"
+                  onClick={() => addToCart(honey)}
+                >
                   Order
                 </button>
               </div>

@@ -6,9 +6,14 @@ import { HiOutlineBars3BottomRight } from "react-icons/hi2";
 import { MdClose } from "react-icons/md";
 import MobileNav from "./MobileNav";
 import MobileCart from "./MobileCart";
-// className = "[&.active]:font-bold";
+import { useCart } from "../context/CartContext";
+import CartDrawer from "./CartDrawer";
 
 const Navbar = () => {
+  const { cart } = useCart();
+  // ✅ Total quantity = sum of all counts
+  const totalItems = cart.reduce((acc, item) => acc + item.count, 0);
+
   const [isOpen, setOpen] = useState(false);
   const [isCart, setCart] = useState(false);
 
@@ -30,13 +35,29 @@ const Navbar = () => {
             <CiSearch size={24} />
           </button>
           {isCart ? (
-            <button onClick={handleCart} className="text-red-900">
-              <FaShoppingCart size={24} />
-            </button>
+            <div className="relative">
+              {" "}
+              <button onClick={handleCart} className="text-red-900 relative">
+                <FaShoppingCart size={24} />
+                {totalItems > 0 && (
+                  <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">
+                    {totalItems}
+                  </span>
+                )}
+              </button>
+            </div>
           ) : (
-            <button onClick={handleCart} className=" text-white">
-              <FaShoppingCart size={24} />
-            </button>
+            <div className="relative">
+              {" "}
+              <button onClick={handleCart} className="text-red-900 relative">
+                <FaShoppingCart size={24} />
+                {totalItems > 0 && (
+                  <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center animate-pulse">
+                    {totalItems}
+                  </span>
+                )}
+              </button>
+            </div>
           )}
 
           {isOpen ? (
@@ -55,7 +76,7 @@ const Navbar = () => {
         <MobileNav handleMenu={handleMenu} isOpen={isOpen} MdClose={MdClose} />
       )}
       {isCart && (
-        <MobileCart handleCart={handleCart} isCart={isCart} MdClose={MdClose} />
+        <CartDrawer handleCart={handleCart} isCart={isCart} MdClose={MdClose} />
       )}
     </div>
   );

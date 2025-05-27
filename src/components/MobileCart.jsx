@@ -1,6 +1,7 @@
 import React from "react";
 import { LiaArrowRightSolid } from "react-icons/lia";
 import { LiaArrowLeftSolid } from "react-icons/lia";
+import CartDrawer from "./CartDrawer";
 
 const MobileCart = ({ isCart, handleCart, MdClose }) => {
   return (

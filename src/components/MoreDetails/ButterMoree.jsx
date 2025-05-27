@@ -1,32 +1,34 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
+import { useCart } from "../../context/CartContext";
 
 const ButterMoree = () => {
+  const { addToCart } = useCart();
   const honeyDetails = [
     {
       name: "product Name Moistured",
-      price: "ugx 15000",
+      price: 789,
       quantity: "1KG",
-      iamge: "/honeyinto.jpg",
+      image: "/honeyinto.jpg",
     },
     {
       name: "product Name Moistured",
-      price: "ugx 15000",
+      price: 650,
       quantity: "1KG",
-      iamge: "/honeyinto.jpg",
+      image: "/honeyinto.jpg",
     },
     {
       name: "product Name Moistured",
-      price: "ugx 15000",
+      price: 900,
       quantity: "1KG",
-      iamge: "/honeyinto.jpg",
+      image: "/honeyinto.jpg",
     },
     {
       name: "product Name Moistured",
-      price: "ugx 15000",
+      price: 7899,
       quantity: "1KG",
-      iamge: "/honeyinto.jpg",
+      image: "/honeyinto.jpg",
     },
   ];
   return (
@@ -50,7 +52,7 @@ const ButterMoree = () => {
             <div className="w-full h-48 rounded-xl bg-amber-300 flex items-center justify-center">
               {/* Ideally use <img src={honey.image} /> */}
               <img
-                src={honey.iamge}
+                src={honey.image}
                 alt="Honey"
                 className="w-full h-full object-cover rounded-xl"
               />
@@ -70,7 +72,10 @@ const ButterMoree = () => {
               </div>
               <div className="">
                 <h1 className="text-orange-500 uppercase">{honey.price}</h1>
-                <button className="bg-black text-white text-center px-4 rounded-xl mt-2">
+                <button
+                  className="bg-black text-white text-center px-4 rounded-xl mt-2"
+                  onClick={() => addToCart(honey)}
+                >
                   Order
                 </button>
               </div>

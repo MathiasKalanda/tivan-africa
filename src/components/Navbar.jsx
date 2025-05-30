@@ -30,7 +30,37 @@ const Navbar = () => {
           <img src="/Logo.png" alt="" className="w-7 flex md:hidden" />
           <img src="/logofull.png" alt="" className="w-30 hidden md:flex" />
         </Link>
-        <div className="flex flex-row gap-4 p-3">
+
+        {/* Navbar for md/big devices */}
+        <div className="hidden md:flex md:flex-row md:justify-evenly text-white md:items-center w-1/2 px-10">
+          <Link
+            to="/"
+            className="[&.active]:font-bold uppercase hover:underline"
+          >
+            Home
+          </Link>
+          <Link
+            to="/aboutus"
+            className="[&.active]:font-bold uppercase hover:underline"
+          >
+            About
+          </Link>
+          <Link
+            to="/productPage"
+            className="[&.active]:font-bold uppercase hover:underline"
+          >
+            Products
+          </Link>
+          <Link
+            to="/contactus"
+            className="[&.active]:font-bold uppercase hover:underline"
+          >
+            Contact
+          </Link>
+        </div>
+
+        {/* Search/Cart/Open-Close Nav icon */}
+        <div className="flex flex-row gap-4 p-3 items-center">
           <button className=" text-white">
             <CiSearch size={24} />
           </button>
@@ -49,7 +79,7 @@ const Navbar = () => {
           ) : (
             <div className="relative">
               {" "}
-              <button onClick={handleCart} className="text-red-900 relative">
+              <button onClick={handleCart} className="text-white relative">
                 <FaShoppingCart size={24} />
                 {totalItems > 0 && (
                   <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center animate-pulse">

@@ -9,11 +9,29 @@ const Footer = () => {
         Copyright© 2025 Tivan Consultancy Ltd. All rights reserved.
       </div>
       <div className="flex flex-row justify-center items-center gap-5 my-10">
-        <FaFacebook size={38} />
-        <FaXTwitter size={38} />
-        <FaInstagram size={38} />
-        <FaYoutube size={38} />
-        <FaLinkedin size={38} />
+        <a
+          href="https://www.facebook.com/photo.php?fbid=518426450840151&id=100080184001040&set=a.190305443652255"
+          className=""
+        >
+          {" "}
+          <FaFacebook size={38} />
+        </a>
+        <a href="https://x.com/tivanconsults" className="">
+          {" "}
+          <FaXTwitter size={38} />
+        </a>
+        <a href="https://www.instagram.com/tivanconsults/" className="">
+          {" "}
+          <FaInstagram size={38} />
+        </a>
+        <a href="" className="">
+          {" "}
+          <FaYoutube size={38} />
+        </a>
+        <a href="https://ug.linkedin.com/in/viviansekitto" className="">
+          {" "}
+          <FaLinkedin size={38} />
+        </a>
       </div>
       <div className="my-3">
         <ul className="flex flex-row justify-center items-center gap-2">

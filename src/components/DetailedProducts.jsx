@@ -41,13 +41,13 @@ const DetailedProducts = () => {
         <h1 className="text-orange-600 text-6xl font-bold">
           Our Enriched Products.
         </h1>
-        <div className="flex flex-col justify-center items-center my-15">
+        <div className="flex flex-col justify-center items-center my-15 md:grid md:grid-cols-2 md:gap-10">
           {" "}
           {products.map((product, index) => (
             <div className="w-full my-6" key={index}>
               {" "}
               <div
-                className="bg-slate-600  h-64 rounded-3xl flex flex-col justify-end  bg-cover bg-center"
+                className="bg-slate-600  h-64 rounded-3xl flex flex-col justify-end  bg-cover bg-center md:h-80 "
                 style={{ backgroundImage: `url(${product.image})` }}
               >
                 <div className="bg-black/45 flex flex-row justify-start items-center rounded-b-3xl px-6 py-5 gap-2">

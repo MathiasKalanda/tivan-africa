@@ -30,12 +30,16 @@ const MobileNav = ({ isOpen, MdClose, handleMenu }) => {
                 <LiaArrowRightSolid size={24} className="" />
               </span>
             </Link>
-            <li className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between border-green-400">
+            <Link
+              to="/order"
+              onClick={handleMenu}
+              className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between border-green-400"
+            >
               <span className="font-bold uppercase">Orders</span>
               <span className="moving-arrow text-green-800">
                 <LiaArrowRightSolid size={24} className="" />
               </span>
-            </li>
+            </Link>
             <li className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between border-green-400">
               <span className="uppercase font-bold">Policy</span>
               <span className="moving-arrow text-green-800">

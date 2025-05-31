@@ -42,8 +42,7 @@ const ButterMoree = () => {
           Best Sales of beauty products
         </h1>
         <p className="text-center text-sm px-10 my-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolor
-          soluta dicta reiciendis possimus asperiores.
+          Available in 100g, 250g, 400g, 500g, and 1000g.
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:px-8 px-2 mt-10">

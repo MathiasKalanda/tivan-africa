@@ -43,8 +43,7 @@ const CheeseMoree = () => {
           Best Sales on all the types of cheese
         </h1>
         <p className="text-center text-sm px-10 my-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolor
-          soluta dicta reiciendis possimus asperiores.
+          Available in 100g, 250g, 400g, 500g, and 1000g.
         </p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-4 place-items-center">

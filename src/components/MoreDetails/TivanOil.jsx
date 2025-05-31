@@ -43,8 +43,7 @@ const TivanOil = () => {
           Categories for our Castor Oil
         </h1>
         <p className="text-center text-sm px-10 my-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolor
-          soluta dicta reiciendis possimus asperiores.
+          Available in 100ml, 250ml, 400ml, 500ml, and 1000ml jars.
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10  mt-10 md:px-8 px-2">

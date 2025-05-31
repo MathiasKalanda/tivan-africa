@@ -21,6 +21,26 @@ const MobileNav = ({ isOpen, MdClose, handleMenu }) => {
         <div className="self-start  h-full w-full px-10 py-6">
           <ul className="text-white">
             <Link
+              to="/"
+              onClick={handleMenu}
+              className="py-3 px-4 rounded-3xl border-green-400 border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between"
+            >
+              <span className="font-bold uppercase">Home</span>
+              <span className="moving-arrow text-green-800">
+                <LiaArrowRightSolid size={24} className="" />
+              </span>
+            </Link>
+            <Link
+              to="/aboutus"
+              onClick={handleMenu}
+              className="py-3 px-4 rounded-3xl border-green-400 border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between"
+            >
+              <span className="font-bold uppercase">About Us</span>
+              <span className="moving-arrow text-green-800">
+                <LiaArrowRightSolid size={24} className="" />
+              </span>
+            </Link>
+            <Link
               to="/productPage"
               onClick={handleMenu}
               className="py-3 px-4 rounded-3xl border-green-400 border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between"
@@ -42,12 +62,6 @@ const MobileNav = ({ isOpen, MdClose, handleMenu }) => {
             </Link>
             <li className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between border-green-400">
               <span className="uppercase font-bold">Policy</span>
-              <span className="moving-arrow text-green-800">
-                <LiaArrowRightSolid size={24} className="" />
-              </span>
-            </li>
-            <li className="py-3 px-4 rounded-3xl border-1 hover:border-amber-500 my-5 flex flex-row items-center justify-between border-green-400">
-              <span className="font-bold uppercase">About Us</span>
               <span className="moving-arrow text-green-800">
                 <LiaArrowRightSolid size={24} className="" />
               </span>

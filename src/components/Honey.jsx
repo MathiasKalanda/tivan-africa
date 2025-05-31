@@ -1,6 +1,15 @@
+import { Link } from "@tanstack/react-router";
 import React from "react";
 
 const Honey = () => {
+  const honey = [
+    {
+      name: "Natural Honey",
+      image: "/honeyinto.jpg",
+      slug: "natural-honey",
+      detailSlug: "honey-details",
+    },
+  ];
   return (
     <div
       style={{
@@ -19,18 +28,33 @@ const Honey = () => {
         <p className="pt-2 font-bold mb-2 text-amber-700">
           Natural and Pure Honey
         </p>
-        <p className="text-wrap text-center px-20">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque Lorem,
-          ipsum dolor sit amet consectetur adipisicing elit. Neque
+        <p className="font-medium text-center px-20 text-sm md:text-md tracking-wide">
+          Tivan’s pure Ugandan honey is 100% organic, unprocessed, and naturally
+          harvested from wildflower-rich regions. Rich in enzymes, antioxidants,
+          and natural sweetness, it’s perfect for boosting immunity, sweetening
+          meals, or promoting holistic wellness.
         </p>
-        <div className="flex flex-row justify-between items-center gap-4 mt-4">
-          <button className="bg-amber-600 px-3 py-2 rounded-3xl text-black">
-            Know More
-          </button>
-          <button className="px-5 py-2 border-amber-600 border-1 rounded-3xl">
-            Buy
-          </button>
-        </div>
+        {honey.map((honey, index) => (
+          <div
+            className="flex flex-row justify-between items-center gap-4 mt-4"
+            key={index}
+          >
+            <Link
+              to="/productDetails/$slug"
+              params={{ slug: honey.detailSlug }}
+              className="bg-amber-600 px-3 py-2 rounded-3xl text-black"
+            >
+              Know More
+            </Link>
+            <Link
+              to="/products/$slug"
+              params={{ slug: honey.slug }}
+              className="px-5 py-2 border-amber-600 border-1 rounded-3xl"
+            >
+              Buy
+            </Link>
+          </div>
+        ))}
         <img src="/nobgjar.png" alt="" className="w-80 " />
         <div className="uppercase font-bold text-transparent bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text">
           Taste the flavour beyond treasure

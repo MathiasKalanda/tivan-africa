@@ -1,3 +1,4 @@
+import { Link } from "@tanstack/react-router";
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -35,10 +36,30 @@ const Footer = () => {
       </div>
       <div className="my-3">
         <ul className="flex flex-row justify-center items-center gap-2">
-          <li className="p-2 hover:underline">For Business</li>
-          <li className="p-2 hover:underline">Privacy</li>
-          <li className="p-2 hover:underline">Legal</li>
-          <li className="p-2 hover:underline">Products</li>
+          <Link
+            to="/contactus"
+            className="p-2 hover:underline font-bold uppercase"
+          >
+            For Business
+          </Link>
+          <Link
+            to="/productPage"
+            className="p-2 hover:underline font-bold uppercase"
+          >
+            Buy
+          </Link>
+          <Link
+            to="/contactus"
+            className="p-2 hover:underline font-bold uppercase"
+          >
+            Legal
+          </Link>
+          <Link
+            to="/productPage"
+            className="p-2 hover:underline font-bold uppercase"
+          >
+            Products
+          </Link>
         </ul>
       </div>
     </div>

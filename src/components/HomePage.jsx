@@ -7,6 +7,8 @@ import DisplayProducts from "./DisplayProducts";
 
 import Hero from "./Hero";
 import DetailedProducts from "./DetailedProducts";
+import FAQSchema from "./FAQSchema";
+import MetaTags from "./MetaTags";
 
 const HomePage = () => {
   return (
@@ -15,6 +17,8 @@ const HomePage = () => {
       <Honey />
       <DetailedProducts />
       <Oil />
+      <FAQSchema />
+      <MetaTags />
       <HoneyGallery />
       <DisplayProducts />
     </div>

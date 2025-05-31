@@ -4,7 +4,7 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className="mt-10 md:mt-16">
-      <div className="bg-[url('/honeycomb.jpg')] bg-cover bg-center h-screen flex flex-col items-start justify-center md:h-[120] md:bg-contain md:bg-repeat md:flex-row md:items-center">
+      <div className="bg-[url('/honeycomb.jpg')] bg-cover bg-center h-screen flex flex-col items-start justify-center md:h-[120] lg:h-[160] md:bg-contain md:bg-repeat md:flex-row md:items-center">
         <h1 className="text-6xl font-extrabold p-10 text-wrap bg-slate-100/25 md:rounded-3xl text-lime-950 pt-15 md:text-nowrap md:text-8xl">
           Taste the <br />
           flavour beyond

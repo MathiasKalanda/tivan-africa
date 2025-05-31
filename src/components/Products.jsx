@@ -2,10 +2,21 @@ import { Link } from "@tanstack/react-router";
 import React from "react";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import Gallery from "./Gallery";
+import { Helmet } from "react-helmet";
+import MetaTags from "./MetaTags";
 
 const Products = () => {
   return (
     <div className="mt-10">
+      <Helmet>
+        <title>
+          Tivan Natural Products | Organic Honey, Ghee, Butter & More
+        </title>
+        <meta
+          name="description"
+          content="Shop natural Ugandan products from Tivan. Pure honey, ghee, butter, castor oil, and cheese. 100% farm-fresh and organic."
+        />
+      </Helmet>
       <div className="">
         <div className="bg-[url('/jar3.jpg')]  bg-cover h-56 flex flex-row items-end">
           <h1 className="text-white mb-10 ml-15 text-4xl font-bold">
@@ -779,6 +790,7 @@ const Products = () => {
           </div>
         </div>
         <Gallery />
+        <MetaTags />
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ const OilDetails = () => {
           <div className="bg-[url('/jar3.jpg')]  bg-cover bg-center h-56 flex flex-row items-end">
             <h1 className="text-[#486F43] mb-10 ml-15 text-4xl font-bold">
               Our Castor Oil Products
-            </h1>
+            </h1>{" "}
           </div>
           {/* product oil */}
           <div className="my-20 md:flex md:flex-row md:justify-evenly">

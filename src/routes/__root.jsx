@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Outlet, createRootRoute } from "@tanstack/react-router";
 import Navbar from "../components/Navbar";
-import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
+// import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import Footer from "../components/Footer";
 import WhatsApp from "../components/WhatsApp";
 
@@ -16,7 +16,7 @@ function RootComponent() {
       <WhatsApp />
       <Outlet />
       <Footer />
-      <TanStackRouterDevtools />
+      {/* <TanStackRouterDevtools /> */}
     </React.Fragment>
   );
 }

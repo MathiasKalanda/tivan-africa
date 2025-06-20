@@ -34,6 +34,7 @@ function RouteComponent() {
       </div>
 
       {isOpen ? <CartDrawer /> : ""}
+      {/* <CartDrawer /> */}
     </div>
   );
 }

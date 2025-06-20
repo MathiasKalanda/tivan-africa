@@ -55,7 +55,6 @@ Price: UGX ${item.price.toLocaleString()}
 
     const templateParams = {
       order_id,
-      // units :
       message,
       costShipping: shippingCost.toLocaleString(),
       costTax: tax.toLocaleString(),
@@ -63,16 +62,16 @@ Price: UGX ${item.price.toLocaleString()}
       customer_name: form.name, //working
       customer_email: form.email, //working
       customer_phone: form.phone, //working
-      email: "muyombakalanda1@gmail.com", //working
+      reply_to: form.email,
       price: subtotal, //working
     };
 
     emailjs
       .send(
-        "service_09yt9fb", // Your actual EmailJS service ID
-        "template_x01uy6t", // Your actual template ID
+        "service_0jfdjpq", // Your actual EmailJS service ID
+        "template_ztsy4bg", // Your actual template ID
         templateParams,
-        "gxWPrcj2IO22HzVmt" // Your actual public key
+        "atAg2pOsFv7yNYVmE" // Your actual public key
       )
       .then(() => {
         setSending(false);

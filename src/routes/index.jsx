@@ -9,6 +9,7 @@ function RouteComponent() {
   return (
     <div>
       <HomePage />
+      {/* /productDetails/oil-details */}
     </div>
   );
 }
